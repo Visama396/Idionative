@@ -1,0 +1,116 @@
+<<<<<<< HEAD
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <main class="container-fluid">
+        <section class="row text-center" id="home">
+            <header class="parallax">
+                <h1 id="titulo">Idionative</h1>
+                <h3 id="subtitulo"></h3>
+            </header>
+        </section>
+
+        <section class="row seccion" id="courses">
+            <div class="col-12">
+                <header class="row courses-header text-center">
+                    <div class="col-12">
+                        <h2>Start learning a language</h2>
+                    </div>
+                </header>
+
+                <section class="row courses-content">
+                    <div class="col-12">
+                        <a class="card" href="#" style="width: 20em">
+                            <img src="{% static "assets/japanese_course.jpg" %}" alt="course image" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Japanese course</h5>
+                                <p class="card-text">Learn the basics of Japanese language, how to read and write in two scripts such as <em>Hiragana</em> (<strong lang="ja">ひらがな</strong>) and <em>Katakana</em> (<strong lang="ja">カタカナ</strong>), understand basic words for a daily life use and more.</p>
+                                <!--<a href="#" class="btn">Learn Japanese</a>-->
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <div class="row dark-section"></div>
+
+        <section class="row seccion" id="dictionary">
+            <div class="col">
+                <h2>Dictionary</h2>
+            </div>
+        </section>
+
+        <div class="row dark-section"></div>
+
+        <section class="row seccion" id="news">
+            <div class="col">
+                <h2>News</h2>
+            </div>
+        </section>
+
+        <footer class="row">
+            <div class="col-12 col-lg-6 text-center align-self-center">
+                <h2>Social networks</h2>
+                <nav id="social" class="nav justify-content-center">
+                    <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-6 text-center align-self-center">
+                © Copyright 2019 idionative.sytes.net - <a href="#">About Idionative</a>
+            </div>
+        </footer>
+    </main>
+=======
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<main class="container-fluid">
+            <div class="row text-center" id="home">
+                <header class="parallax">
+                    <h1 id="titulo">Idionative</h1>
+                    <h3 id="subtitulo"></h3>
+                </header>
+            </div>
+            <div class="row seccion" id="courses">
+                <div class="col">
+                    <h2>Comenzar</h2>
+                    <button class="btn btn-primary btn-lg">Start</button>
+                </div>
+            </div>
+            <div class="row dark-section"></div>
+            <div class="row seccion" id="dictionary">
+                <div class="col">
+                    <h2>Dictionary</h2>
+                </div>
+            </div>
+            <div class="row dark-section"></div>
+            <div class="row seccion" id="news">
+                <div class="col">
+                    <h2>News</h2>
+                </div>
+            </div>
+            <footer class="row">
+                <div class="col-12 col-lg-6 text-center align-self-center">
+                    <h2>Social networks</h2>
+                    <nav id="social" class="nav justify-content-center">
+                        <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
+                        <a class="nav-link" href="#"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
+                        <a class="nav-link" href="#"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
+                        <a class="nav-link" href="#"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
+                        <a class="nav-link" href="#"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-6 text-center align-self-center">
+                    © Copyright 2019 idionative.sytes.net - <a href="#">About Idionative</a>
+                </div>
+            </footer>
+        </main>
+>>>>>>> 084fda5ce9b0ca18567527acbf49540ba1aa0fdd
+{% endblock %}
