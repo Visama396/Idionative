@@ -2,45 +2,85 @@
 {% load static %}
 
 {% block content %}
-<main class="container-fluid">
-            <div class="row text-center" id="home">
-                <header class="parallax">
-                    <h1 id="titulo">Idionative</h1>
-                    <h3 id="subtitulo"></h3>
+    <main class="container-fluid">
+        <section class="row text-center" id="home">
+            <header class="parallax">
+                <h1 id="titulo">Idionative</h1>
+                <h3 id="subtitulo"></h3>
+            </header>
+        </section>
+
+        <section class="row seccion" id="courses">
+            <div class="col-12">
+                <header class="row courses-header text-center">
+                    <div class="col-12">
+                        <h2>{% trans "Start learning a language" %}</h2>
+                    </div>
                 </header>
+
+                <section class="row courses-cont">
+                    <div class="col-12">
+                        <a class="card" href="#" style="width: 20em">
+                            <img src="{% static "assets/japanese_course.jpg" %}" alt="course image" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Japanese course</h5>
+                                <p class="card-text">Learn the basics of Japanese language, how to read and write in two scripts such as <em>Hiragana</em> (<strong lang="ja">ひらがな</strong>) and <em>Katakana</em> (<strong lang="ja">カタカナ</strong>), understand basic words for a daily life use and more.</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
             </div>
-            <div class="row seccion" id="courses">
-                <div class="col">
-                    <h2>Comenzar</h2>
-                    <button class="btn btn-primary btn-lg">Start</button>
+        </section>
+
+        <div class="row dark-section"></div>
+
+        <div class="row seccion" id="dictionary">
+            <div class="col">
+                <h2>Dictionary</h2>
+            </div>
+        </div>
+
+        <div class="row dark-section"></div>
+
+        <div class="row seccion" id="news">
+            <div class="col">
+                <h2>News</h2>
+            </div>
+        </div>
+
+        <footer class="row">
+            <div class="col-12 col-lg-6 text-center align-self-center">
+                <h2>Social networks</h2>
+                <nav id="social" class="nav justify-content-center">
+                    <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-6 text-center align-self-center">
+                © Copyright 2019 idionative.sytes.net - <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative" style="color: white">About Idioantive</button>
+            </div>
+        </footer>
+
+        <aside class="modal" id="about-idionative">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <header class="modal-header">
+                        <h4 class="modal-title">About Idionative</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </header>
+
+                    <section class="modal-body">
+
+                    </section>
+
+                    <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </footer>
                 </div>
             </div>
-            <div class="row dark-section"></div>
-            <div class="row seccion" id="dictionary">
-                <div class="col">
-                    <h2>Dictionary</h2>
-                </div>
-            </div>
-            <div class="row dark-section"></div>
-            <div class="row seccion" id="news">
-                <div class="col">
-                    <h2>News</h2>
-                </div>
-            </div>
-            <footer class="row">
-                <div class="col-12 col-lg-6 text-center align-self-center">
-                    <h2>Social networks</h2>
-                    <nav id="social" class="nav justify-content-center">
-                        <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
-                        <a class="nav-link" href="#"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
-                        <a class="nav-link" href="#"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
-                        <a class="nav-link" href="#"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
-                        <a class="nav-link" href="#"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
-                    </nav>
-                </div>
-                <div class="col-12 col-lg-6 text-center align-self-center">
-                    © Copyright 2019 idionative.sytes.net - <a href="#">About Idionative</a>
-                </div>
-            </footer>
-        </main>
+        </aside>
+    </main>
 {% endblock %}
