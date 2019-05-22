@@ -38,14 +38,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="62" column="170" selection-start-line="62" selection-start-column="170" selection-end-line="62" selection-end-column="170" />
+            <state relative-caret-position="272">
+              <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="e#778#797#0#HTML" expanded="true" />
-                <element signature="e#2938#2953#0#HTML" expanded="true" />
+                <element signature="e#2938#2958#0#HTML" expanded="true" />
                 <element signature="e#3250#3257#1#HTML" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1952" />
           </provider>
         </entry>
       </file>
@@ -273,12 +280,12 @@
       <workItem from="1557470038228" duration="1854000" />
       <workItem from="1558355217387" duration="5369000" />
       <workItem from="1558509955162" duration="5336000" />
-      <workItem from="1558523537991" duration="10801000" />
+      <workItem from="1558523537991" duration="11342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35487000" />
+    <option name="totallyTimeSpent" value="36028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -343,11 +350,6 @@
     <entry file="file://$PROJECT_DIR$/idionative/static/assets/instagram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1952" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -411,13 +413,18 @@
     <entry file="file://$PROJECT_DIR$/idionative/static/js/custom.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1952" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="62" column="170" selection-start-line="62" selection-start-column="170" selection-end-line="62" selection-end-column="170" />
+        <state relative-caret-position="272">
+          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="e#778#797#0#HTML" expanded="true" />
-            <element signature="e#2938#2953#0#HTML" expanded="true" />
+            <element signature="e#2938#2958#0#HTML" expanded="true" />
             <element signature="e#3250#3257#1#HTML" expanded="true" />
           </folding>
         </state>
