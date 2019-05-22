@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idionative/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+            <state relative-caret-position="187">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -62,7 +62,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idionative/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/idionative/static/js/custom.js" />
         <option value="$PROJECT_DIR$/idionative/static/css/custom.css" />
         <option value="$PROJECT_DIR$/idionative/settings.py" />
-        <option value="$PROJECT_DIR$/idionative/urls.py" />
         <option value="$PROJECT_DIR$/idionative/views.py" />
+        <option value="$PROJECT_DIR$/idionative/urls.py" />
       </list>
     </option>
   </component>
@@ -264,12 +264,12 @@
       <workItem from="1557470038228" duration="1854000" />
       <workItem from="1558355217387" duration="5369000" />
       <workItem from="1558509955162" duration="5336000" />
-      <workItem from="1558523537991" duration="8327000" />
+      <workItem from="1558523537991" duration="9178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33013000" />
+    <option name="totallyTimeSpent" value="33864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -389,22 +389,22 @@
     <entry file="file://$PROJECT_DIR$/idionative/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

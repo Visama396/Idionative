@@ -9,5 +9,5 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', admin.site.urls),
 )
