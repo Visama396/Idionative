@@ -25,11 +25,7 @@ SECRET_KEY = 'gq%0+84dbw2-*u0#f1ocq!far49gaj21$c7ny4m2-et82c0ey9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['idionative.sytes.net', '127.0.0.1', 'localhost', '0.0.0.0']
-=======
-ALLOWED_HOSTS = [ 'idionative.sytes.net', '127.0.0.1', 'localhost', '0.0.0.0', '192.168.2.20' ]
->>>>>>> 084fda5ce9b0ca18567527acbf49540ba1aa0fdd
 
 
 # Application definition
@@ -78,14 +74,6 @@ WSGI_APPLICATION = 'idionative.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-<<<<<<< HEAD
-#DATABASES = {
-#    'default': {
-#       'ENGINE': 'django.db.backends.sqlite3',
-#       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#   }
-#}
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -94,12 +82,6 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASS', '11Legolasvisama'),
         'HOST': 'localhost',
         'PORT': '5432',
-=======
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
->>>>>>> 084fda5ce9b0ca18567527acbf49540ba1aa0fdd
     }
 }
 
