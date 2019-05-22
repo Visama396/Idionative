@@ -22,12 +22,6 @@ html {
     height: 100vh;
 }
 
-footer {
-    color: white;
-    background-color: #001427;
-    height: 20vh;
-}
-
 *[lang="ja"] {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -118,6 +112,11 @@ footer {
     width: 32px;
 }
 
+#footer {
+    color: white;
+    background-color: #001427;
+    height: 20vh;
+}
 
 
 @media screen and (min-width: 768px) {
