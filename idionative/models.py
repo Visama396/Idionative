@@ -57,7 +57,7 @@ class BookmarkedWords(models.Model):
 
 
 class Course(models.Model):
-    title = models.TextField(max_length=200)
+    title = models.CharField(max_length=200)
     author = models.ForeignKey('User', on_delete=models.CASCADE)
     starting_date = models.DateField()
     description = models.TextField()
