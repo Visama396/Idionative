@@ -132,7 +132,7 @@ LANGUAGES = (
     ('en', _('English')),
     ('es', _('Spanish')),
     ('de', _('German')),
-    ('jp', _('Japanese')),
+    ('ja', _('Japanese')),
     ('pt', _('Portuguese')),
     ('ko', _('Korean')),
     ('gl', _('Galician')),

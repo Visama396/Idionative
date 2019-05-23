@@ -62,6 +62,7 @@ class Course(models.Model):
     starting_date = models.DateField()
     description = models.TextField()
     lang = models.ForeignKey('Language', on_delete=models.CASCADE)
+    image = models.CharField(max_length=255)
 
     def __str__(self):
         return self.title
