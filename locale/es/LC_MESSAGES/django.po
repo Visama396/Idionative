@@ -48,29 +48,29 @@ msgstr "Gallego"
 
 #: idionative/templates/base.html:39
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: idionative/templates/base.html:42
 msgid "Courses"
-msgstr ""
+msgstr "Cursos"
 
 #: idionative/templates/base.html:45 idionative/templates/index.html:37
 msgid "Dictionary"
-msgstr ""
+msgstr "Diccionario"
 
 #: idionative/templates/base.html:48 idionative/templates/index.html:45
 msgid "News"
-msgstr ""
+msgstr "Noticias"
 
 #: idionative/templates/base.html:51
 msgid "Log in/Sign u"
-msgstr ""
+msgstr "Iniciar sesión/Registrarse"
 
 #: idionative/templates/base.html:55
 #, fuzzy
 #| msgid "Start learning a language"
 msgid "Change language"
-msgstr "Empieza a aprender un idioma"
+msgstr "Cambiar idioma"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
@@ -78,23 +78,27 @@ msgstr "Empieza a aprender un idioma"
 
 #: idionative/templates/index.html:72
 msgid "Social networks"
-msgstr ""
+msgstr "Redes sociales"
 
 #: idionative/templates/index.html:82 idionative/templates/index.html:90
 msgid "About Idionative"
-msgstr ""
+msgstr "Sobre Idionative"
 
 #: idionative/templates/index.html:95
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
+"Idionative es un proyecto que creé hace 3 años para un trabajo de clase cuando estaba "
+"estudiando informática."
 
 #: idionative/templates/index.html:96
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
 msgstr ""
+"Me gusta ayudar a otras personas y por eso tuve la idea de enseñar mi idioma "
+"a aquellos que querían aprenderlo, o ayudar a quiénes estuvieran interesados."
 
 #: idionative/templates/index.html:97
 msgid ""
@@ -102,6 +106,8 @@ msgid ""
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
+"El proyecto comenzó con solo Español, Inglés y Japonés disponibles. "
+"Desde entonces ha ido aumentando según más personas querían colaborar."
 
 #: idionative/templates/index.html:98
 msgid ""
@@ -109,7 +115,9 @@ msgid ""
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
 msgstr ""
+"Es un proyecto voluntario, y a pesar de que no sea perfecto, el equipo que ha ayudado "
+"en Idionative ha hecho su mejor esfuerzo para todas las personas que quieran usar este sitio web."
 
 #: idionative/templates/index.html:102
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"

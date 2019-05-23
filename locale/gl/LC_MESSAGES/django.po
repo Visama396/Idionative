@@ -20,67 +20,67 @@ msgstr ""
 
 #: idionative/settings.py:132 idionative/templates/base.html:58
 msgid "English"
-msgstr ""
+msgstr "Inglés"
 
 #: idionative/settings.py:133 idionative/templates/base.html:59
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #: idionative/settings.py:134 idionative/templates/base.html:60
 msgid "German"
-msgstr ""
+msgstr "Alemán"
 
 #: idionative/settings.py:135 idionative/templates/base.html:61
 msgid "Japanese"
-msgstr ""
+msgstr "Xaponés"
 
 #: idionative/settings.py:136 idionative/templates/base.html:62
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugués"
 
 #: idionative/settings.py:137 idionative/templates/base.html:64
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 #: idionative/settings.py:138 idionative/templates/base.html:63
 msgid "Galician"
-msgstr ""
+msgstr "Galego"
 
 #: idionative/templates/base.html:39
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: idionative/templates/base.html:42
 msgid "Courses"
-msgstr ""
+msgstr "Cursos"
 
 #: idionative/templates/base.html:45 idionative/templates/index.html:37
 msgid "Dictionary"
-msgstr ""
+msgstr "Diccionario"
 
 #: idionative/templates/base.html:48 idionative/templates/index.html:45
 msgid "News"
-msgstr ""
+msgstr "Noticias"
 
 #: idionative/templates/base.html:51
 msgid "Log in/Sign u"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #: idionative/templates/base.html:55
 msgid "Change language"
-msgstr ""
+msgstr "Cambiar lingua"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
-msgstr ""
+msgstr "Comenza a aprender unha lingua"
 
 #: idionative/templates/index.html:72
 msgid "Social networks"
-msgstr ""
+msgstr "Redes sociais"
 
 #: idionative/templates/index.html:82 idionative/templates/index.html:90
 msgid "About Idionative"
-msgstr ""
+msgstr "Acerca de Idionative"
 
 #: idionative/templates/index.html:95
 msgid ""
@@ -110,4 +110,4 @@ msgstr ""
 
 #: idionative/templates/index.html:102
 msgid "Close"
-msgstr ""
+msgstr "Pechar"

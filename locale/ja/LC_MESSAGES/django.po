@@ -20,67 +20,67 @@ msgstr ""
 
 #: idionative/settings.py:132 idionative/templates/base.html:58
 msgid "English"
-msgstr ""
+msgstr "英語"
 
 #: idionative/settings.py:133 idionative/templates/base.html:59
 msgid "Spanish"
-msgstr ""
+msgstr "スペイン語"
 
 #: idionative/settings.py:134 idionative/templates/base.html:60
 msgid "German"
-msgstr ""
+msgstr "ドイツ語"
 
 #: idionative/settings.py:135 idionative/templates/base.html:61
 msgid "Japanese"
-msgstr ""
+msgstr "日本語"
 
 #: idionative/settings.py:136 idionative/templates/base.html:62
 msgid "Portuguese"
-msgstr ""
+msgstr "ポルトガル語"
 
 #: idionative/settings.py:137 idionative/templates/base.html:64
 msgid "Korean"
-msgstr ""
+msgstr "韓国語"
 
 #: idionative/settings.py:138 idionative/templates/base.html:63
 msgid "Galician"
-msgstr ""
+msgstr "ガリシア語"
 
 #: idionative/templates/base.html:39
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
 
 #: idionative/templates/base.html:42
 msgid "Courses"
-msgstr ""
+msgstr "コース"
 
 #: idionative/templates/base.html:45 idionative/templates/index.html:37
 msgid "Dictionary"
-msgstr ""
+msgstr "辞書"
 
 #: idionative/templates/base.html:48 idionative/templates/index.html:45
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 #: idionative/templates/base.html:51
 msgid "Log in/Sign u"
-msgstr ""
+msgstr "ログイン/サインアップ"
 
 #: idionative/templates/base.html:55
 msgid "Change language"
-msgstr ""
+msgstr "言語を変更"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
-msgstr ""
+msgstr "言語を学んで初めて"
 
 #: idionative/templates/index.html:72
 msgid "Social networks"
-msgstr ""
+msgstr "社会的ネットワーク"
 
 #: idionative/templates/index.html:82 idionative/templates/index.html:90
 msgid "About Idionative"
-msgstr ""
+msgstr "Idionativeついて"
 
 #: idionative/templates/index.html:95
 msgid ""
