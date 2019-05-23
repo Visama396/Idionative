@@ -63,8 +63,6 @@ msgid "News"
 msgstr "ニュース"
 
 #: idionative/templates/base.html:51
-#, fuzzy
-#| msgid "Log in/Sign u"
 msgid "Log in/Sign up"
 msgstr "ログイン/サインアップ"
 
