@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-23 13:49+0000\n"
+"POT-Creation-Date: 2019-05-23 14:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,34 +18,96 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: idionative/settings.py:132
+#: idionative/settings.py:132 idionative/templates/base.html:58
 msgid "English"
 msgstr ""
 
-#: idionative/settings.py:133
+#: idionative/settings.py:133 idionative/templates/base.html:59
 msgid "Spanish"
 msgstr ""
 
-#: idionative/settings.py:134
+#: idionative/settings.py:134 idionative/templates/base.html:60
 msgid "German"
 msgstr ""
 
-#: idionative/settings.py:135
+#: idionative/settings.py:135 idionative/templates/base.html:61
 msgid "Japanese"
 msgstr ""
 
-#: idionative/settings.py:136
+#: idionative/settings.py:136 idionative/templates/base.html:62
 msgid "Portuguese"
 msgstr ""
 
-#: idionative/settings.py:137
+#: idionative/settings.py:137 idionative/templates/base.html:64
 msgid "Korean"
 msgstr ""
 
-#: idionative/settings.py:138
+#: idionative/settings.py:138 idionative/templates/base.html:63
 msgid "Galician"
+msgstr ""
+
+#: idionative/templates/base.html:39
+msgid "Home"
+msgstr ""
+
+#: idionative/templates/base.html:42
+msgid "Courses"
+msgstr ""
+
+#: idionative/templates/base.html:45 idionative/templates/index.html:37
+msgid "Dictionary"
+msgstr ""
+
+#: idionative/templates/base.html:48 idionative/templates/index.html:45
+msgid "News"
+msgstr ""
+
+#: idionative/templates/base.html:51
+msgid "Log in/Sign u"
+msgstr ""
+
+#: idionative/templates/base.html:55
+msgid "Change language"
 msgstr ""
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
+msgstr ""
+
+#: idionative/templates/index.html:72
+msgid "Social networks"
+msgstr ""
+
+#: idionative/templates/index.html:82 idionative/templates/index.html:90
+msgid "About Idionative"
+msgstr ""
+
+#: idionative/templates/index.html:95
+msgid ""
+"Idionative is a project I made 3 years ago for a class task while I was "
+"studying IT."
+msgstr ""
+
+#: idionative/templates/index.html:96
+msgid ""
+"I like helping other people so I had the idea of teaching my language to "
+"those who want to learn, or at least, to help to whoever is interested on it."
+msgstr ""
+
+#: idionative/templates/index.html:97
+msgid ""
+"The project started with only Spanish, English and Japanese as available "
+"languages. But it's been growing little by little as more people wanted to "
+"help."
+msgstr ""
+
+#: idionative/templates/index.html:98
+msgid ""
+"This is a volunteer work so even though it's not perfect, the team working "
+"in Idionative is doing its best to make it great and cool for all people who "
+"want to use the information of this website."
+msgstr ""
+
+#: idionative/templates/index.html:102
+msgid "Close"
 msgstr ""
