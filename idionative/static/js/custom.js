@@ -17,9 +17,12 @@ $(document).ready(function() {
             $("#topnav").removeClass('navbar-dark');
             $("#topnav").addClass('navbar-light');
             $("#topnav").css('border-bottom', '1px solid black');
+            $("#topnav").css('background', 'white');
         } else {
             $("#topnav").removeClass('navbar-light');
             $("#topnav").addClass('navbar-dark');
+            $("#topnav").css('border-bottom', 'none');
+            $("#topnav").css('background', 'transparent');
         }
     }
     window.onscroll = cambiarNav;
