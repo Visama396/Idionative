@@ -27,4 +27,6 @@ $(document).ready(function() {
     }
     window.onscroll = cambiarNav;
     cambiarNav();
+
+    $(".toast").show();
 });
