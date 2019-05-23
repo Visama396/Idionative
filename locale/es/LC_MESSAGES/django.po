@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-23 14:16+0000\n"
+"POT-Creation-Date: 2019-05-23 14:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,9 @@ msgid "News"
 msgstr "Noticias"
 
 #: idionative/templates/base.html:51
-msgid "Log in/Sign u"
+#, fuzzy
+#| msgid "Log in/Sign u"
+msgid "Log in/Sign up"
 msgstr "Iniciar sesión/Registrarse"
 
 #: idionative/templates/base.html:55
@@ -87,8 +89,8 @@ msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
-"Idionative es un proyecto que creé hace 3 años para un trabajo de clase cuando estaba "
-"estudiando informática."
+"Idionative es un proyecto que creé hace 3 años para un trabajo de clase "
+"cuando estaba estudiando informática."
 
 #: idionative/templates/index.html:96
 msgid ""
@@ -104,8 +106,8 @@ msgid ""
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
-"El proyecto comenzó con solo Español, Inglés y Japonés disponibles. "
-"Desde entonces ha ido aumentando según más personas querían colaborar."
+"El proyecto comenzó con solo Español, Inglés y Japonés disponibles. Desde "
+"entonces ha ido aumentando según más personas querían colaborar."
 
 #: idionative/templates/index.html:98
 msgid ""
@@ -113,8 +115,9 @@ msgid ""
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
 msgstr ""
-"Es un proyecto voluntario, y a pesar de que no sea perfecto, el equipo que ha ayudado "
-"en Idionative ha hecho su mejor esfuerzo para todas las personas que quieran usar este sitio web."
+"Es un proyecto voluntario, y a pesar de que no sea perfecto, el equipo que "
+"ha ayudado en Idionative ha hecho su mejor esfuerzo para todas las personas "
+"que quieran usar este sitio web."
 
 #: idionative/templates/index.html:102
 msgid "Close"
