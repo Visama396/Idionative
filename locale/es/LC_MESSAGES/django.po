@@ -67,8 +67,6 @@ msgid "Log in/Sign u"
 msgstr "Iniciar sesión/Registrarse"
 
 #: idionative/templates/base.html:55
-#, fuzzy
-#| msgid "Start learning a language"
 msgid "Change language"
 msgstr "Cambiar idioma"
 
