@@ -26,6 +26,11 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.dark-section {
+    height: 80px;
+    background: black;
+}
+
 /* NAVBAR */
 
 .dropdown-menu {
