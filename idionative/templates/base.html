@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load i18n %}
 {% load static %}
 <html lang="en">
     <head>
@@ -35,32 +36,32 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a href="#home" class="nav-link">Home</a>
+                            <a href="#home" class="nav-link">{% trans "Home" %}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#courses" class="nav-link">Courses</a>
+                            <a href="#courses" class="nav-link">{% trans "Courses" %}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#dictionary" class="nav-link">Dictionary</a>
+                            <a href="#dictionary" class="nav-link">{% trans "Dictionary" %}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#news" class="nav-link">News</a>
+                            <a href="#news" class="nav-link">{% trans "News" %}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Log in/Sign up</a>
+                            <a href="#" class="nav-link">{% trans "Log in/Sign u" %}p</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="cuenta" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Change language
+                            {% trans "Change language" %}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="cuenta">
-                                <a class="dropdown-item" href="http://idionative.sytes.net/en/">English</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/es/">Spanish</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/de/">German</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/ja/">Japanese</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/pt/">Portuguese</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/gl/">Galician</a>
-                                <a class="dropdown-item" href="http://idionative.sytes.net/ko/">Korean</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/en/">{% trans "English" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/es/">{% trans "Spanish" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/de/">{% trans "German" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/ja/">{% trans "Japanese" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/pt/">{% trans "Portuguese" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/gl/">{% trans "Galician" %}</a>
+                                <a class="dropdown-item" href="http://idionative.sytes.net/ko/">{% trans "Korean" %}</a>
                             </div>
                         </li>
                     </ul>

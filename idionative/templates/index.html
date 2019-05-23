@@ -34,7 +34,7 @@
 
         <div class="row seccion" id="dictionary">
             <div class="col">
-                <h2>Dictionary</h2>
+                <h2>{% trans "Dictionary" %}</h2>
             </div>
         </div>
 
@@ -42,7 +42,7 @@
             <div class="col-12">
                 <header class="row">
                     <div class="col-12">
-                        <h2>News</h2>
+                        <h2>{% trans "News" %}</h2>
                     </div>
                 </header>
 
@@ -69,7 +69,7 @@
 
         <footer class="row" id="footer">
             <div class="col-12 col-lg-6 text-center align-self-center">
-                <h2>Social networks</h2>
+                <h2>{% trans "Social networks" %}</h2>
                 <nav id="social" class="nav justify-content-center">
                     <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
                     <a class="nav-link" href="#"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
@@ -79,7 +79,7 @@
                 </nav>
             </div>
             <div class="col-12 col-lg-6 text-center align-self-center">
-                © Copyright 2019 idionative.sytes.net <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative" style="color: white">About Idionative</button>
+                © Copyright 2019 idionative.sytes.net <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative" style="color: white">{% trans "About Idionative" %}</button>
             </div>
         </footer>
 
@@ -87,19 +87,19 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <header class="modal-header">
-                        <h4 class="modal-title">About Idionative</h4>
+                        <h4 class="modal-title">{% trans "About Idionative" %}</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </header>
 
                     <section class="modal-body">
-                        <p>Idionative is a project I made 3 years ago for a class task while I was studying IT.</p>
-                        <p>I like helping other people so I had the idea of teaching my language to those who want to learn, or at least, to help to whoever is interested on it.</p>
-                        <p>The project started with only Spanish, English and Japanese as available languages. But it's been growing little by little as more people wanted to help.</p>
-                        <p>This is a volunteer work so even though it's not perfect, the team working in Idionative is doing its best to make it great and cool for all people who want to use the information of this website.</p>
+                        <p>{% blocktrans %}Idionative is a project I made 3 years ago for a class task while I was studying IT.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}I like helping other people so I had the idea of teaching my language to those who want to learn, or at least, to help to whoever is interested on it.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}The project started with only Spanish, English and Japanese as available languages. But it's been growing little by little as more people wanted to help.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}This is a volunteer work so even though it's not perfect, the team working in Idionative is doing its best to make it great and cool for all people who want to use the information of this website.{% endblocktrans %}</p>
                     </section>
 
                     <footer class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">{% trans "Close" %}</button>
                     </footer>
                 </div>
             </div>
