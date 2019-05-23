@@ -16,6 +16,7 @@ $(document).ready(function() {
         if (document.body.scrollTop > $("#home").height()-50 || document.documentElement.scrollTop > $("#home").height()-50) {
             $("#topnav").removeClass('navbar-dark');
             $("#topnav").addClass('navbar-light');
+            $("#topnav").css('border-bottom', '1px solid black');
         } else {
             $("#topnav").removeClass('navbar-light');
             $("#topnav").addClass('navbar-dark');
