@@ -87,12 +87,14 @@ msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
+"Idionative é un proxecto que creei hai 3 anos para un traballo de clase cando estaba a estudiar informática."
 
 #: idionative/templates/index.html:96
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
 msgstr ""
+"Gústame axudar a outras persoas e por iso tiven a idea de ensinar o meu idioma a aqueles que querían aprendelo, ou axudar a quen estivesen interesados."
 
 #: idionative/templates/index.html:97
 msgid ""
@@ -100,13 +102,14 @@ msgid ""
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
+"O proxecto comenzou con só Español, Inglés e Xaponés dispoñibles. Desde entón foi aumentando segundo máis persoas querían colaborar."
 
 #: idionative/templates/index.html:98
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
-msgstr ""
+msgstr "É un proxecto voluntario, e a pesar de que non sexa perfecto, o equipo que axudou en Idionative fixo o seu mellor esforzo para todas as persoas que queiran usar este sitio web."
 
 #: idionative/templates/index.html:102
 msgid "Close"
