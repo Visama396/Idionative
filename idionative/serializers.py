@@ -1,7 +1,9 @@
 from rest_framework import serializers
 from .models import Word
 
-class WordSerializer(serializers.HyperlinkedModelSerializer):
+class WordSerializer(serializers.ModelSerializer):
     class Meta:
         model = Word
-        field = ('name', 'language', 'word_type')
+        fields = ('pk', 'name', 'language', 'word_type')
+
+

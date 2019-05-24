@@ -2,11 +2,9 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
 from rest_framework import routers
-from .views import home, home_files, WordViewSet
-
-router = routers.DefaultRouter()
-
-router.register(r'words', WordViewSet)
+from .views import home, home_files
+from rest_framework.urlpatterns import format_suffix_patterns
+from .views import WordList
 
 urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$', home_files, name='home-files')
@@ -14,6 +12,6 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
-    url(r'^words/', include(router.urls)),
+    url(r'^words/$', WordList.as_view()),
     url(r'^admin/', admin.site.urls),
 )
