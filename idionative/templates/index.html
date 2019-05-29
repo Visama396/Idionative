@@ -22,20 +22,13 @@
                     <div class="col-12">
                         {% for course in courses %}
                                 <a class="card" href="#" style="width: 20em">
-                                <img src="assets/{{ course.image }}" alt="course image" class="card-img-top">
+                                <img src="{{ course.image }}" alt="course image" class="card-img-top">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{ course.title }}</h5>
+                                    <h5 class="card-title">{{ course.title }} {{ course.lang }}</h5>
                                     <p class="card-text">{{ course.description }}</p>
                                 </div>
                                 </a>
                         {% endfor %}
-                        <a class="card" href="#" style="width: 20em">
-                            <img src="{% static "assets/japanese_course.jpg" %}" alt="course image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Japanese course</h5>
-                                <p class="card-text">Learn the basics of Japanese language, how to read and write in two scripts such as <em>Hiragana</em> (<strong lang="ja">ひらがな</strong>) and <em>Katakana</em> (<strong lang="ja">カタカナ</strong>), understand basic words for a daily life use and more.</p>
-                            </div>
-                        </a>
                     </div>
                 </section>
             </div>
