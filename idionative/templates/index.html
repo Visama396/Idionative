@@ -21,6 +21,7 @@
                 <section class="row courses-cont">
                     <div class="col-12">
                         {% for course in courses %}
+                            {% if course.lang.code_2 == LANGUAGE_CODE %}
                                 <a class="card" href="#" style="width: 20em">
                                 <img src="{{ course.image }}" alt="course image" class="card-img-top">
                                 <div class="card-body">
@@ -28,6 +29,7 @@
                                     <p class="card-text">{{ course.description }}</p>
                                 </div>
                                 </a>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </section>
