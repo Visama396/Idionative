@@ -46,11 +46,7 @@ msgstr "<span lang=\"ja\">韓国語</span>"
 msgid "Galician"
 msgstr "<span lang=\"ja\">ガリシア語</span>"
 
-#: idionative/templates/base.html:25
-msgid "Home"
-msgstr "ホーム"
-
-#:idionative/templates/base.html:40
+#: idionative/templates/base.html:25 idionative/templates/base.html:40
 msgid "Home"
 msgstr "<span lang=\"ja\">ホーム</span>"
 
