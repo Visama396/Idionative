@@ -19,10 +19,10 @@
                 </header>
 
                 <section class="row courses-cont">
-                    <div class="col-12 d-flex flex-nowrap">
+                    <div class="col-12 d-flex flex-nowrap px-3">
                         {% for course in courses %}
                             {% if course.lang.code_2 == LANGUAGE_CODE %}
-                                <a class="card" href="#" style="margin-right: 2em; width: 20em">
+                                <a class="card" href="#" style="margin: 0 1em; width: 20em">
                                 <img src="{{ course.image }}" style="height: 160px" alt="course image" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ course.title }} {{ course.lang }}</h5>
