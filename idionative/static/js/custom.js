@@ -6,23 +6,23 @@ $(document).ready(function() {
     lang = window.location.pathname.slice(1,3);
     var subtitle;
     if (lang === 'en') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'es') {
-        subtitle = new Typed("#subtitulo", {strings: ['Aprende un idioma,<br>^1000abre nuevos horizontes'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Aprende un idioma,<br>^1000abre nuevos horizontes'], typeSpeed: 60});
     } else if (lang === 'ja') {
-        subtitle = new Typed("#subtitulo", {strings: ['<span lang="ja">言語を学んで,<br>^1000新しいホリゾンを広げて</span>'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000<span lang="ja">言語を学んで,<br>^1000新しいホリゾンを広げて</span>'], typeSpeed: 60});
     } else if (lang === 'de') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'pt') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'gl') {
-        subtitle = new Typed("#subtitulo", {strings: ['Aprende a língua,<br>^1000expande novos horixontes'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Aprende a língua,<br>^1000expande novos horixontes'], typeSpeed: 60});
     } else if (lang === 'ko') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'vi') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'nl') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     }
 
     $(".typed-cursor").hide();  // Oculta el cursor de la librería TypedJS
@@ -50,5 +50,5 @@ $(document).ready(function() {
     window.onscroll = cambiarNav;
     cambiarNav();
 
-    $(".toast").toast('show');
+    //$(".toast").toast('show');
 });
