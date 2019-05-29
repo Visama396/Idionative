@@ -80,3 +80,10 @@ class Page(models.Model):
 
     def __str__(self):
         return '{}: {}'.format(self.unit, self.pk)
+
+
+class News(models.Model):
+    title = models.CharField(max_length=200)
+    pub_date = models.DateField()
+    content = models.TextField()
+    author = models.ForeignKey('User', on_delete=models.CASCADE)
