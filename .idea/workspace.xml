@@ -50,11 +50,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+            <state relative-caret-position="340">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
-                <element signature="e#939#958#0#HTML" expanded="true" />
-                <element signature="e#1221#1240#0#HTML" expanded="true" />
+                <element signature="e#940#959#0#HTML" expanded="true" />
+                <element signature="e#1498#1517#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,12 +244,12 @@
       <workItem from="1559037633577" duration="192000" />
       <workItem from="1559041293302" duration="78000" />
       <workItem from="1559055909250" duration="619000" />
-      <workItem from="1559108087903" duration="1750000" />
+      <workItem from="1559108087903" duration="1918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62309000" />
+    <option name="totallyTimeSpent" value="62477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -440,11 +440,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="340">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
-            <element signature="e#939#958#0#HTML" expanded="true" />
-            <element signature="e#1221#1240#0#HTML" expanded="true" />
+            <element signature="e#940#959#0#HTML" expanded="true" />
+            <element signature="e#1498#1517#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
