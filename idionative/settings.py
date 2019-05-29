@@ -136,6 +136,8 @@ LANGUAGES = (
     ('pt', _('Portuguese')),
     ('ko', _('Korean')),
     ('gl', _('Galician')),
+    ('vi', _('Vietnamese')),
+    ('nl', _('Dutch')),
 )
 
 LOCALE_PATHS = (
