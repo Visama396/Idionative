@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idionative/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idionative/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,11 +86,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="62" column="67" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+            <state relative-caret-position="479">
+              <caret line="78" column="95" selection-start-line="78" selection-start-column="95" selection-end-line="78" selection-end-column="95" />
               <folding>
                 <element signature="e#2526#2559#0#HTML" expanded="true" />
                 <element signature="e#2784#2791#1#HTML" expanded="true" />
+                <element signature="e#3285#3318#0#HTML" expanded="true" />
+                <element signature="e#3600#3607#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -326,12 +327,12 @@
       <workItem from="1559055909250" duration="619000" />
       <workItem from="1559108087903" duration="6965000" />
       <workItem from="1559124021368" duration="410000" />
-      <workItem from="1559130567627" duration="1809000" />
+      <workItem from="1559130567627" duration="2299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69743000" />
+    <option name="totallyTimeSpent" value="70233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -522,11 +523,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="62" column="67" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+        <state relative-caret-position="479">
+          <caret line="78" column="95" selection-start-line="78" selection-start-column="95" selection-end-line="78" selection-end-column="95" />
           <folding>
             <element signature="e#2526#2559#0#HTML" expanded="true" />
             <element signature="e#2784#2791#1#HTML" expanded="true" />
+            <element signature="e#3285#3318#0#HTML" expanded="true" />
+            <element signature="e#3600#3607#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
