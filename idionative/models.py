@@ -50,7 +50,7 @@ class BookmarkedWord(models.Model):
     word = models.ForeignKey('Word', on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.user + ": " + self.word
+        return self.user.username + ": " + self.word.name
 
 
 class Course(models.Model):
