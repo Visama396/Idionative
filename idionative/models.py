@@ -45,7 +45,7 @@ class User(models.Model):
         return self.email
 
 
-class BookmarkedWords(models.Model):
+class BookmarkedWord(models.Model):
     user = models.ForeignKey('User', on_delete=models.CASCADE)
     word = models.ForeignKey('Word', on_delete=models.CASCADE)
 
@@ -87,3 +87,6 @@ class News(models.Model):
     pub_date = models.DateField()
     content = models.TextField()
     author = models.ForeignKey('User', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
