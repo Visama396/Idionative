@@ -16,7 +16,7 @@ $(document).ready(function() {
     } else if (lang === 'pt') {
         subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     } else if (lang === 'gl') {
-        subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['Aprende a língua,<br>^1000expande novos horixontes'], typeSpeed: 60});
     } else if (lang === 'ko') {
         subtitle = new Typed("#subtitulo", {strings: ['Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     }
