@@ -31,5 +31,10 @@ def courses(request):
     return render(request, 'course.html', {'courses': courses_list})
 
 
+def course(request, course_pk):
+    course = Course.objects.get(pk=course_pk)
+    return render(request, 'course.html', {'course': course})
+
+
 def home_files(request):
     return HttpResponse('<p>Hello Home Files</p>')
