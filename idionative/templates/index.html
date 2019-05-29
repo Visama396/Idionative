@@ -20,6 +20,17 @@
 
                 <section class="row courses-cont">
                     <div class="col-12">
+                        {% for course in courses %}
+                            {% if course.lang == LANGUAGE_CODE %}
+                                <a class="card" href="#" style="width: 20em">
+                                <img src="{% static course.image %}" alt="course image" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ course.title }}</h5>
+                                    <p class="card-text">{{ course.description }}</p>
+                                </div>
+                                </a>
+                            {% endif %}
+                        {% endfor %}
                         <a class="card" href="#" style="width: 20em">
                             <img src="{% static "assets/japanese_course.jpg" %}" alt="course image" class="card-img-top">
                             <div class="card-body">
