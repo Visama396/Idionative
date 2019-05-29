@@ -38,7 +38,7 @@ $(document).ready(function() {
         if (document.body.scrollTop > $("#home").height()-50 || document.documentElement.scrollTop > $("#home").height()-50) {
             $("#topnav").removeClass('navbar-dark');
             $("#topnav").addClass('navbar-light');
-            $("#topnav").css('box-shadow', '0px 4px 10px 0px rgba(0,0,0,0.75)');
+            $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
             $("#topnav").css('background', 'white');
         } else {
             $("#topnav").removeClass('navbar-light');
