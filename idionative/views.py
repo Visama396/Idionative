@@ -20,8 +20,12 @@ class WordList(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 def home(request):
-    courses_list = Course.objects.get(lang__code_2__exact='en')
-    return render(request, 'index.html')
+    courses_list = Course.objects.all()
+    return render(request, 'index.html', {'courses': courses_list})
+
+def courses(request):
+    courses_list = Course.objects.all()
+    return render(request, 'course.html', {'courses': courses_list})
 
 def home_files(request):
     return HttpResponse('<p>Hello Home Files</p>')
