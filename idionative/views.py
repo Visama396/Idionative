@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import Course, Word
+from .models import Course, Word, Language
 from .serializers import WordSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -23,7 +23,8 @@ class WordList(APIView):
 
 def home(request):
     courses_list = Course.objects.all()
-    return render(request, 'index.html', {'courses': courses_list})
+    languages_list = Language.objects.all()
+    return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list})
 
 
 def courses(request):
