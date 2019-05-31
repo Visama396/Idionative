@@ -5,6 +5,7 @@ class Language(models.Model):
     name = models.CharField(max_length=200)
     code_2 = models.CharField(max_length=2, primary_key=True)
     code_3 = models.CharField(max_length=3)
+    icon = models.CharField(max_length=150)
 
     def __str__(self):
         return self.name
