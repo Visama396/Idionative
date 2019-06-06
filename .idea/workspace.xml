@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/idionative/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="694">
-              <caret line="116" column="85" selection-start-line="116" selection-start-column="85" selection-end-line="116" selection-end-column="85" />
+              <caret line="116" column="87" selection-start-line="116" selection-start-column="87" selection-end-line="116" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -323,12 +323,12 @@
       <workItem from="1559283507115" duration="1405000" />
       <workItem from="1559305812844" duration="599000" />
       <workItem from="1559808278432" duration="7498000" />
-      <workItem from="1559820972465" duration="669000" />
+      <workItem from="1559820972465" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86899000" />
+    <option name="totallyTimeSpent" value="87053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -546,7 +546,7 @@
     <entry file="file://$PROJECT_DIR$/idionative/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
-          <caret line="116" column="85" selection-start-line="116" selection-start-column="85" selection-end-line="116" selection-end-column="85" />
+          <caret line="116" column="87" selection-start-line="116" selection-start-column="87" selection-end-line="116" selection-end-column="87" />
         </state>
       </provider>
     </entry>
