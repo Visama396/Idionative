@@ -105,16 +105,16 @@ class Meaning(models.Model):
 
 
 class Synonym(models.Model):
-    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE)
-    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE)
+    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="word_1")
+    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="word_2")
 
     def __str__(self):
         return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
 
 
 class SameWords(models.Model):
-    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE)
-    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE)
+    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="word_1")
+    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="word_2")
 
     def __str__(self):
         return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
