@@ -94,3 +94,30 @@ class News(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Meaning(models.Model):
+    word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    meaning = models.CharField(max_length=200)
+
+    def __str__(self):
+        return '{}. {}'.format(self.word.name, self.meaning)
+
+
+class Synonym(models.Model):
+    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE)
+    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
+
+
+class SameWords(models.Model):
+    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE)
+    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
+
+    class Meta:
+        verbose_name_plural = "same_words"
