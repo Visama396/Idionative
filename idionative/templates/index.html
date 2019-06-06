@@ -22,7 +22,7 @@
                     <div class="col-12 d-flex flex-nowrap px-3">
                         {% for course in courses %}
                             {% if course.lang.code_2 == LANGUAGE_CODE %}
-                                <a class="card" href="{% url 'course' course.pk %}" style="margin: 0 1em; width: 20em">
+                                <a class="card" href="{% url 'course' %}" style="margin: 0 1em; width: 20em">
                                 <img src="{{ course.image }}" alt="course image" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ course.title }} {{ course.lang }}</h5>
