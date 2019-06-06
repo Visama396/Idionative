@@ -24,12 +24,12 @@ class WordList(APIView):
 def home(request):
     courses_list = Course.objects.all()
     languages_list = Language.objects.all()
-    return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list})
+    return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list, 'template': "home"})
 
 
 def course(request, coursepk):
     course_info = Course.objects.get(pk=coursepk)
-    return render(request, 'course.html', {'course': course_info})
+    return render(request, 'course.html', {'course': course_info, 'template': "course"})
 
 
 def home_files(request):
