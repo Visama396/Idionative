@@ -13,6 +13,6 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
     url(r'^words/$', WordList.as_view()),
-    url(r'^courses/<course_pk>$', course, name='course'),
+    url(r'^courses/<course_pk:int>$', course, name='course'),
     url(r'^admin/', admin.site.urls),
 )
