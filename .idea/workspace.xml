@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+              <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
               <folding>
                 <element signature="e#983#1017#0#HTML" expanded="true" />
               </folding>
@@ -314,12 +314,12 @@
       <workItem from="1559283295784" duration="115000" />
       <workItem from="1559283507115" duration="1405000" />
       <workItem from="1559305812844" duration="599000" />
-      <workItem from="1559808278432" duration="2893000" />
+      <workItem from="1559808278432" duration="3230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81625000" />
+    <option name="totallyTimeSpent" value="81962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -530,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
           <folding>
             <element signature="e#983#1017#0#HTML" expanded="true" />
           </folding>
