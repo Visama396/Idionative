@@ -27,11 +27,6 @@ def home(request):
     return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list})
 
 
-def courses(request):
-    courses_list = Course.objects.all()
-    return render(request, 'course.html', {'courses': courses_list})
-
-
 def course(request, course_pk):
     course = Course.objects.get(pk=course_pk)
     return render(request, 'course.html', {'course': course})
