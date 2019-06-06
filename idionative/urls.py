@@ -1,4 +1,5 @@
 from django.conf.urls import include, url
+from django.urls import path
 from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
 from rest_framework import routers
@@ -13,6 +14,6 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
     url(r'^words/$', WordList.as_view()),
-    url(r'^courses/<int:course_pk>/$', course, name='course'),
+    path('courses/<int:course_pk>/', course, name='course'),
     url(r'^admin/', admin.site.urls),
 )
