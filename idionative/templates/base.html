@@ -30,7 +30,7 @@
     <title>Idionative · Home</title>
 </head>
 <body>
-<nav id="topnav" class="navbar navbar-expand-xl navbar-dark fixed-top">
+<nav id="topnav" class="navbar navbar-expand-xl navbar-dark fixed-top {% if template == "course" %}bg-dark{% endif %}">
     <div class="container">
         <a class="navbar-brand mr-auto" href="">
             <img src="{% static "assets/logo.png" %}" alt="logo" style="width: 64px"> Idionative
