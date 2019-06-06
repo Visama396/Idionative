@@ -27,8 +27,8 @@ def home(request):
     return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list})
 
 
-def course(request, course_pk):
-    course_info = Course.objects.get(pk=course_pk)
+def course(request, coursepk):
+    course_info = Course.objects.get(pk=coursepk)
     return render(request, 'course.html', {'course': course_info})
 
 
