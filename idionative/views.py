@@ -28,8 +28,8 @@ def home(request):
 
 
 def course(request, course_pk):
-    course = Course.objects.get(pk=course_pk)
-    return render(request, 'course.html', {'course': course})
+    course_info = Course.objects.get(pk=course_pk)
+    return render(request, 'course.html', {'course': course_info})
 
 
 def home_files(request):

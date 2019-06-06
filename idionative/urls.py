@@ -14,6 +14,6 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
     url(r'^words/$', WordList.as_view()),
-    path('courses/<int:course_pk>/', course, name='course'),
+    url(r'^courses/(?P<course_pk>)/$', course, name='course'),
     url(r'^admin/', admin.site.urls),
 )
