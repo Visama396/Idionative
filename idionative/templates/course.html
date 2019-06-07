@@ -6,11 +6,23 @@
     <header class="row course-header align-items-end">
         <div class="col-12">
             <h1>{{ course }}</h1>
+            <h2>{{ course.description }}</h2>
         </div>
     </header>
-    <section class="row">
+    <section class="row course-units">
         <div class="col-12">
-            <p>Units go here</p>
+            <div class="row">
+                <div class="col-12">
+                    <h3>Units of this course</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    {% if units %}
+                        <p>There are units in this course</p>
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </section>
     </main>

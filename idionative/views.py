@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import Course, Word, Language
+from .models import Course, Word, Language, Unit, Page
 from .serializers import WordSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -29,7 +29,8 @@ def home(request):
 
 def course(request, coursepk):
     course_info = Course.objects.get(pk=coursepk)
-    return render(request, 'course.html', {'course': course_info, 'template': "course"})
+    units_list = Unit.objects.get(course=course_info)
+    return render(request, 'course.html', {'course': course_info, 'units': units_list, 'template': "course"})
 
 
 def home_files(request):
