@@ -114,15 +114,15 @@ class Synonym(models.Model):
 
 # I'll have to add a new column for each language in the database
 class SameWords(models.Model):
-    en_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    es_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    ja_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    de_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    pt_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    gl_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    ko_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    vi_word = models.ForeignKey('Word', on_delete=models.CASCADE)
-    nl_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    en_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="englishWord")
+    es_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="spanishWord")
+    ja_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="japaneseWord")
+    de_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="germanWord")
+    pt_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="portugueseWord")
+    gl_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="galicianWord")
+    ko_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="koreanWord")
+    vi_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="vietnameseWord")
+    nl_word = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="dutchWord")
 
     def __str__(self):
         return 'Same words: {}'.format(self.pk)
