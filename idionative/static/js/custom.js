@@ -50,5 +50,5 @@ $(document).ready(function() {
     window.onscroll = cambiarNav;
     cambiarNav();
 
-    //$(".toast").toast('show');
+    $(".toast").toast('show');
 });
