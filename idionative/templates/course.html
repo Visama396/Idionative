@@ -19,7 +19,13 @@
             <div class="row">
                 <div class="col-12">
                     {% if units %}
-                        <p>There are units in this course</p>
+                        <div class="card" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                        </div>
+                        </div>
+                    {% else %}
+                        <p>There aren't any units in this course yet.</p>
                     {% endif %}
                 </div>
             </div>

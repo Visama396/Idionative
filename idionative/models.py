@@ -72,7 +72,7 @@ class Unit(models.Model):
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.title
+        return '{}: {}'.format(self.course.title, self.title)
 
 
 class Page(models.Model):
@@ -88,6 +88,7 @@ class News(models.Model):
     pub_date = models.DateField()
     content = models.TextField()
     author = models.ForeignKey('User', on_delete=models.CASCADE)
+    language_news = models.ForeignKey('Language', on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "news"
