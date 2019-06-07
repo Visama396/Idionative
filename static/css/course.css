@@ -3,3 +3,18 @@
 .course-header {
     margin-top: 8em;
 }
+
+.course-units .card {
+    margin: 1em 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.75);
+    transition: transform 1s;
+    color: black;
+}
+
+.course-units .card:hover {
+    color: black;
+    text-decoration: none;
+    transform: scale(1.1);
+    z-index: 1;
+}
