@@ -28,74 +28,74 @@ msgstr "<span lang=\"ja\">スペイン語</span>"
 
 #: idionative/settings.py:134 idionative/templates/base.html:61
 msgid "German"
-msgstr "<span lang=\"ja\">ドイツ語</span>"
+msgstr "ドイツ語"
 
 #: idionative/settings.py:135 idionative/templates/base.html:62
 msgid "Japanese"
-msgstr "<span lang=\"ja\">日本語</span>"
+msgstr "日本語"
 
 #: idionative/settings.py:136 idionative/templates/base.html:63
 msgid "Portuguese"
-msgstr "<span lang=\"ja\">ポルトガル語</span>"
+msgstr "ポルトガル語"
 
 #: idionative/settings.py:137 idionative/templates/base.html:65
 msgid "Korean"
-msgstr "<span lang=\"ja\">韓国語</span>"
+msgstr "韓国語"
 
 #: idionative/settings.py:138 idionative/templates/base.html:64
 msgid "Galician"
-msgstr "<span lang=\"ja\">ガリシア語</span>"
+msgstr "ガリシア語"
 
 #: idionative/templates/base.html:40
 msgid "Home"
-msgstr "<span lang=\"ja\">ホーム</span>"
+msgstr "ホーム"
 
 #: idionative/templates/base.html:43
 msgid "Courses"
-msgstr "<span lang=\"ja\">コース</span>"
+msgstr "コース"
 
 #: idionative/templates/base.html:46 idionative/templates/index.html:41
 msgid "Dictionary"
-msgstr "<span lang=\"ja\">辞書</span>"
+msgstr "辞書"
 
 #: idionative/templates/base.html:49 idionative/templates/index.html:49
 msgid "News"
-msgstr "<span lang=\"ja\">ニュース</span>"
+msgstr "ニュース"
 
 #: idionative/templates/base.html:52
 msgid "Log in/Sign up"
-msgstr "<span lang=\"ja\">ログイン/サインアップ</span>"
+msgstr "ログイン/サインアップ"
 
 #: idionative/templates/base.html:56
 msgid "Change language"
-msgstr "<span lang=\"ja\">言語を変更</span>"
+msgstr "言語を変更"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
-msgstr "<span lang=\"ja\">言語を学んで初めて</span>"
+msgstr "言語を学んで初めて"
 
 #: idionative/templates/index.html:89
 msgid "Social networks"
-msgstr "<span lang=\"ja\">社会的ネットワーク</span>"
+msgstr "社会的ネットワーク"
 
 #: idionative/templates/index.html:99 idionative/templates/index.html:107
 msgid "About Idionative"
-msgstr "<span lang=\"ja\">Idionativeついて</span>"
+msgstr "Idionativeついて"
 
 #: idionative/templates/index.html:112
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
-"<span lang=\"ja\">IdioinativeはITを勉強していた頃のプロジェクトです。</span>"
+"３年前には、ITを勉強しながら、Idionativeって言うプロジェクトを始まりました。"
 
 #: idionative/templates/index.html:113
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
 msgstr ""
-"<span lang=\"ja\">人を助けてことが好きだから、私の言語を学びたい人に教えてと"
-"思った。</span>"
+"人を助けてことが好きだから、私の言語を学びたい人に教えてと"
+"思った。"
 
 #: idionative/templates/index.html:114
 msgid ""
@@ -103,16 +103,16 @@ msgid ""
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
-"<span lang=\"ja\">Idionativeはスペイン語と英語と日本語だけの言語がありまし"
-"た。</span>"
+"Idionativeはスペイン語と英語と日本語だけの言語がありました。"
 
 #: idionative/templates/index.html:115
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
-msgstr "<span lang=\"ja\">ニャー</span>"
+msgstr ""
+"ニャー"
 
 #: idionative/templates/index.html:119
 msgid "Close"
-msgstr "<span lang=\"ja\">閉じる</span>"
+msgstr "閉じる"
