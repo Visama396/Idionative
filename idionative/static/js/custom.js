@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     // Cuando el scroll pase la seccion parallax, que el texto cambie de color para que se pueda ver.
     function cambiarNav() {
-        if (document.body.scrollTop > $("#home").height()-50 || document.documentElement.scrollTop > $("#home").height()-50) {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
             $("#topnav").removeClass('navbar-dark');
             $("#topnav").addClass('navbar-light');
             $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
