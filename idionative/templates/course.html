@@ -3,33 +3,36 @@
 {% load static %}
 {% block content %}
     <main class="container">
-    <header class="row course-header">
-        <div class="col-12">
-            <h1>{{ course }}</h1>
-            <p><em>{{ course.description }}</em></p>
-        </div>
-    </header>
-    <section class="row course-units">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12">
-                    <h3>Units of this course</h3>
+        <header class="row course-header">
+            <div class="col-12">
+                <h1>{{ course }}</h1>
+                <p><em>{{ course.description }}</em></p>
+            </div>
+        </header>
+        <section class="row course-units">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Units of this course</h3>
+                    </div>
+                </div>
+                <div class="row units-list">
+                    <div class="col-12">
+                        {% if units != None %}
+                            {% for unit in units %}
+                                <a class="card" style="width: 100%">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ unit.title }}</h5>
+                                        <h6 class="card-subtitle">{{ unit.description }}</h6>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        {% else %}
+                            <p>There aren't any units in this course yet.</p>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    {% if units != None %}
-                        <div class="card" style="width: 100%">
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                        </div>
-                        </div>
-                    {% else %}
-                        <p>There aren't any units in this course yet.</p>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 {% endblock %}

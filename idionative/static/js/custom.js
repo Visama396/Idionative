@@ -55,7 +55,6 @@ $(document).ready(function () {
     // Hacer función que cambie el slide actual por el siguiente
     // Cuándo se llegue al último slide se repetirá el ciclo.
 
-
     // Cuando el scroll pase la seccion parallax, que el texto cambie de color para que se pueda ver.
     function cambiarNav() {
         if ($(window).width() > 1200) {
