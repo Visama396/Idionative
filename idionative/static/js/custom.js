@@ -79,6 +79,7 @@ $(document).ready(function () {
     }
 
     window.onscroll = cambiarNav;
+    window.onresize = cambiarNav;
     cambiarNav();
 
     $(".toast").toast('show');
