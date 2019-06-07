@@ -112,12 +112,20 @@ class Synonym(models.Model):
         return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
 
 
+# I'll have to add a new column for each language in the database
 class SameWords(models.Model):
-    word_1 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="sameword_1")
-    word_2 = models.ForeignKey('Word', on_delete=models.CASCADE, related_name="sameword_2")
+    en_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    es_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    ja_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    de_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    pt_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    gl_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    ko_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    vi_word = models.ForeignKey('Word', on_delete=models.CASCADE)
+    nl_word = models.ForeignKey('Word', on_delete=models.CASCADE)
 
     def __str__(self):
-        return '{} <-> {}'.format(self.word_1.name, self.word_2.name)
+        return 'Same words: {}'.format(self.pk)
 
     class Meta:
         verbose_name_plural = "same_words"
