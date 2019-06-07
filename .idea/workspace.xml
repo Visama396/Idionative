@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idionative/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,13 +80,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="408">
+              <caret line="24" column="119" selection-start-line="24" selection-start-column="119" selection-end-line="24" selection-end-column="119" />
               <folding>
-                <element signature="e#986#1021#0#HTML" expanded="true" />
                 <element signature="e#3784#3817#0#HTML" expanded="true" />
                 <element signature="e#4582#4615#0#HTML" expanded="true" />
                 <element signature="e#4896#4903#1#HTML" expanded="true" />
@@ -95,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idionative/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="813">
@@ -165,8 +164,8 @@
         <option value="$PROJECT_DIR$/idionative/static/css/course.css" />
         <option value="$PROJECT_DIR$/idionative/static/js/custom.js" />
         <option value="$PROJECT_DIR$/idionative/templates/course.html" />
-        <option value="$PROJECT_DIR$/idionative/templates/index.html" />
         <option value="$PROJECT_DIR$/idionative/models.py" />
+        <option value="$PROJECT_DIR$/idionative/templates/index.html" />
       </list>
     </option>
   </component>
@@ -333,12 +332,12 @@
       <workItem from="1559305812844" duration="599000" />
       <workItem from="1559808278432" duration="7498000" />
       <workItem from="1559820972465" duration="5280000" />
-      <workItem from="1559892671433" duration="4222000" />
+      <workItem from="1559892671433" duration="4596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95732000" />
+    <option name="totallyTimeSpent" value="96106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -552,23 +551,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-          <folding>
-            <element signature="e#986#1021#0#HTML" expanded="true" />
-            <element signature="e#3784#3817#0#HTML" expanded="true" />
-            <element signature="e#4582#4615#0#HTML" expanded="true" />
-            <element signature="e#4896#4903#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
           <caret line="90" column="88" lean-forward="true" selection-start-line="90" selection-start-column="88" selection-end-line="90" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="119" selection-start-line="24" selection-start-column="119" selection-end-line="24" selection-end-column="119" />
+          <folding>
+            <element signature="e#3784#3817#0#HTML" expanded="true" />
+            <element signature="e#4582#4615#0#HTML" expanded="true" />
+            <element signature="e#4896#4903#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
