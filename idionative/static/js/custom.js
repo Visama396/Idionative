@@ -20,7 +20,7 @@ $(document).ready(function() {
     } else if (lang === 'ko') {
         subtitle = new Typed("#subtitulo", {strings: ['^1000<span lang="ko">언어 배우기,<br>^1000새로운 지평을 넓히기</span>'], typeSpeed: 60});
     } else if (lang === 'vi') {
-        subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
+        subtitle = new Typed("#subtitulo", {strings: ['^1000Ngôn ngữ mở ra<br>^1000chân trời mới'], typeSpeed: 60});
     } else if (lang === 'nl') {
         subtitle = new Typed("#subtitulo", {strings: ['^1000Learn a language,<br>^1000expand new horizons'], typeSpeed: 60});
     }
