@@ -20,87 +20,90 @@ msgstr ""
 
 #: idionative/settings.py:132 idionative/templates/base.html:68
 msgid "English"
-msgstr ""
+msgstr "Engels"
 
 #: idionative/settings.py:133 idionative/templates/base.html:69
 msgid "Spanish"
-msgstr ""
+msgstr "Spaans"
 
 #: idionative/settings.py:134 idionative/templates/base.html:70
 msgid "German"
-msgstr ""
+msgstr "Duits"
 
 #: idionative/settings.py:135 idionative/templates/base.html:71
 msgid "Japanese"
-msgstr ""
+msgstr "Japans"
 
 #: idionative/settings.py:136 idionative/templates/base.html:72
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugees"
 
 #: idionative/settings.py:137 idionative/templates/base.html:74
 msgid "Korean"
-msgstr ""
+msgstr "Koreaans"
 
 #: idionative/settings.py:138 idionative/templates/base.html:73
 msgid "Galician"
-msgstr ""
+msgstr "Galicisch"
 
 #: idionative/settings.py:139 idionative/templates/base.html:76
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamees"
 
 #: idionative/settings.py:140 idionative/templates/base.html:75
 msgid "Dutch"
-msgstr ""
+msgstr "Nederlands"
 
 #: idionative/templates/base.html:46
 msgid "Home"
-msgstr ""
+msgstr "Voorpagina"
 
 #: idionative/templates/base.html:50
 msgid "Courses"
-msgstr ""
+msgstr "Curcussen"
 
 #: idionative/templates/base.html:53 idionative/templates/index.html:43
 msgid "Dictionary"
-msgstr ""
+msgstr "Woordenboek"
 
 #: idionative/templates/base.html:56 idionative/templates/index.html:63
 msgid "News"
-msgstr ""
+msgstr "Nieuws"
 
 #: idionative/templates/base.html:60
 msgid "Log in/Sign up"
-msgstr ""
+msgstr "Log in/Schrijf in"
 
 #: idionative/templates/base.html:65
 msgid "Change language"
-msgstr ""
+msgstr "Verander de taal"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
-msgstr ""
+msgstr "Begin een taal te leren"
 
 #: idionative/templates/index.html:112
 msgid "Social networks"
-msgstr ""
+msgstr "Sociale netwerken"
 
 #: idionative/templates/index.html:122 idionative/templates/index.html:130
 msgid "About Idionative"
-msgstr ""
+msgstr "Over Idionative"
 
 #: idionative/templates/index.html:135
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
+"Idionative is een project dat ik 3 jaar geleden maakte voor een klastaak terwijl ik IT aan het studeren was."
 
 #: idionative/templates/index.html:136
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
 msgstr ""
+"Ik vind het leuk om andere mensen te helpen, dus ik kreeg het idee mijn taal te leren aan degenen die willen leren,"
+"of op zijn minst om te helpen aan iedereen die er interesse in heeft."
 
 #: idionative/templates/index.html:137
 msgid ""
@@ -108,6 +111,8 @@ msgid ""
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
+"Het project begon met alleen Spaans, Engels en Japans als beschikbare talen."
+"Maar het groeide beetje bij beetje naarmate meer mensen wilden helpen."
 
 #: idionative/templates/index.html:138
 msgid ""
@@ -115,7 +120,10 @@ msgid ""
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
 msgstr ""
+"Dit is een vrijwilligerswerk dus hoewel het niet perfect is, doet het team dat in"
+"Idionative werkt zijn best om het geweldig en cool te maken voor alle mensen"
+"die de informatie van deze website willen gebruiken."
 
 #: idionative/templates/index.html:142
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"

@@ -29,7 +29,11 @@ def home(request):
 
 def course(request, coursepk):
     course_info = Course.objects.get(pk=coursepk)
-    units_list = Unit.objects.get(course=course_info)
+    try:
+        units_list = Unit.objects.get(course=course_info)
+    except Unit.DoesNotExist:
+        units_list = None
+        
     return render(request, 'course.html', {'course': course_info, 'units': units_list, 'template': "course"})
 
 
