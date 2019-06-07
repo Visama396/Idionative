@@ -30,7 +30,7 @@ def home(request):
 def course(request, coursepk):
     course_info = Course.objects.get(pk=coursepk)
     try:
-        units_list = Unit.objects.filter(course=course_info)
+        units_list = Unit.objects.filter(course=course_info).order_by('pk')
     except Unit.DoesNotExist:
         units_list = None
         
