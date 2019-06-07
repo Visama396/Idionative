@@ -88,7 +88,7 @@ class News(models.Model):
     pub_date = models.DateField()
     content = models.TextField()
     author = models.ForeignKey('User', on_delete=models.CASCADE)
-    language_news = models.ForeignKey('Language', on_delete=models.CASCADE)
+    language_news = models.ForeignKey('Language', on_delete=models.CASCADE, default=Language.objects.get(pk=1))
 
     class Meta:
         verbose_name_plural = "news"
