@@ -3,7 +3,7 @@ from django.urls import path
 from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
 from rest_framework import routers
-from .views import home, home_files, course
+from .views import home, home_files, course, page
 from rest_framework.urlpatterns import format_suffix_patterns
 from .views import WordList
 
@@ -15,5 +15,6 @@ urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
     url(r'^words/$', WordList.as_view()),
     url(r'^courses/(?P<coursepk>\d+)$', course, name='course'),
+    url(r'^$', page, name='page'),
     url(r'^admin/', admin.site.urls),
 )
