@@ -28,8 +28,8 @@ def home(request):
     return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list, 'news': news_list, 'template': "home"})
 
 
-def course(request, coursepk):
-    course_info = Course.objects.get(pk=coursepk)
+def course(request, courseslug):
+    course_info = Course.objects.get(slug=courseslug)
     try:
         units_list = Unit.objects.filter(course=course_info).order_by('pk')
     except Unit.DoesNotExist:
@@ -38,7 +38,7 @@ def course(request, coursepk):
     return render(request, 'course.html', {'course': course_info, 'units': units_list, 'template': "course"})
 
 
-def page(request, coursepk, unitpk, pagepk):
+def page(request, courseslug, unitslug, pagepk):
 
     return render(request, 'page.html', {'page': "", 'template': "page"})
 
