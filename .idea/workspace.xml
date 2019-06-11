@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/static/assets/german-course.png" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/assets/german-course.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+            <state relative-caret-position="617">
+              <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1822" />
-    <option name="y" value="-23" />
+    <option name="x" value="1706" />
+    <option name="y" value="-8" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -290,12 +289,12 @@
       <workItem from="1560179772911" duration="1197000" />
       <workItem from="1560189209176" duration="1846000" />
       <workItem from="1560193800849" duration="1885000" />
-      <workItem from="1560233150746" duration="600000" />
+      <workItem from="1560233150746" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113565000" />
+    <option name="totallyTimeSpent" value="114166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -506,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+        <state relative-caret-position="617">
+          <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
         </state>
       </provider>
     </entry>
