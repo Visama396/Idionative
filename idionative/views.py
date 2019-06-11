@@ -38,8 +38,10 @@ def course(request, coursepk):
         units_list = Unit.objects.filter(course=course_info).order_by('pk')
     except Unit.DoesNotExist:
         units_list = None
+
+    page_list = Page.objects.all()
         
-    return render(request, 'course.html', {'course': course_info, 'units': units_list, 'template': "course"})
+    return render(request, 'course.html', {'course': course_info, 'units': units_list, 'pages': page_list, 'template': "course"})
 
 
 def page(request, coursepk, unitpk, pagepk):

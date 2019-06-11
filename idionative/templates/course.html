@@ -26,13 +26,22 @@
                         <div class="col-12">
                             {% if units != None %}
                                 {% for unit in units %}
-                                    <a class="card" href="{% url 'page' coursepk=course.pk unitpk=unit.pk pagepk=1 %}"
+                                    <div class="card"
                                        style="width: 100%">
-                                        <div class="card-body">
+                                        <div class="card-header" >
                                             <h5 class="card-title">{{ unit.pk }}. {{ unit.title }}</h5>
                                             <h6 class="card-subtitle">{{ unit.description }}</h6>
                                         </div>
-                                    </a>
+                                        <div class="card-body">
+                                            <ul>
+                                                {% for page in pages %}
+                                                    {% if page.unit.pk == unit.pk and unit.course.pk == course.pk %}
+                                                        <li><a href="{% url 'page' coursepk=course.pk unitpk=unit.pk pagepk=page.pk %}"></a></li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 {% endfor %}
                             {% else %}
                                 <p>There aren't any units in this course yet.</p>
