@@ -55,7 +55,8 @@ class BookmarkedWord(models.Model):
 
 
 class Course(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=200, unique=True)
+    slug = models.CharField(max_length=200, unique=True)
     author = models.ForeignKey('User', on_delete=models.CASCADE)
     starting_date = models.DateField()
     description = models.TextField()
@@ -67,7 +68,8 @@ class Course(models.Model):
 
 
 class Unit(models.Model):
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=100, unique=True)
+    slug = models.CharField(max_length=100, unique=True)
     description = models.TextField()
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
 
