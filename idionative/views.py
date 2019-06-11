@@ -29,7 +29,11 @@ def home(request):
 
 
 def course(request, coursepk):
-    course_info = Course.objects.get(pk=coursepk)
+    try:
+        course_info = Course.objects.get(pk=coursepk)
+    except Course.DoesNotExist:
+        course_info = None
+
     try:
         units_list = Unit.objects.filter(course=course_info).order_by('pk')
     except Unit.DoesNotExist:
@@ -39,6 +43,7 @@ def course(request, coursepk):
 
 
 def page(request, coursepk, unitpk, pagepk):
+    course_info = Course.objects.get(pk=coursepk)
 
     return render(request, 'page.html', {'page': "", 'template': "page"})
 
