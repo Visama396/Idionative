@@ -55,12 +55,8 @@ class BookmarkedWord(models.Model):
 
 
 class Course(models.Model):
-
-    def create_slug(self):
-        return '{}'.format(self.title).lower().replace(' ', '-')
-
     title = models.CharField(max_length=200, unique=True)
-    slug = models.CharField(max_length=200, default=create_slug(), null=False)
+    slug = models.CharField(max_length=200, default=str(title).lower().replace(' ', '-'), null=False)
     author = models.ForeignKey('User', on_delete=models.CASCADE)
     starting_date = models.DateField()
     description = models.TextField()
@@ -72,12 +68,8 @@ class Course(models.Model):
 
 
 class Unit(models.Model):
-
-    def create_slug(self):
-        return '{}'.format(self.title).lower().replace(' ', '-')
-
     title = models.CharField(max_length=100, unique=True)
-    slug = models.CharField(max_length=100, default=create_slug(), null=False)
+    slug = models.CharField(max_length=100, default=str(title).lower().replace(' ', '-'), null=False)
     description = models.TextField()
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
 
