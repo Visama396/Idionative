@@ -78,11 +78,12 @@ class Unit(models.Model):
 
 
 class Page(models.Model):
+    title = models.CharField(max_length=100, default='')
     content = models.TextField()
     unit = models.ForeignKey('Unit', on_delete=models.CASCADE)
 
     def __str__(self):
-        return '{}: {}'.format(self.unit, self.pk)
+        return '{}: {}'.format(self.unit, self.title)
 
 
 class News(models.Model):

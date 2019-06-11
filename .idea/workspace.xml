@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idionative/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/idionative/templates/course.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="38" column="131" selection-start-line="38" selection-start-column="131" selection-end-line="38" selection-end-column="131" />
+              <caret line="38" column="149" selection-start-line="38" selection-start-column="149" selection-end-line="38" selection-end-column="149" />
             </state>
           </provider>
         </entry>
@@ -63,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idionative/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+            <state relative-caret-position="646">
+              <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -162,10 +163,10 @@
         <option value="$PROJECT_DIR$/idionative/static/css/custom.css" />
         <option value="$PROJECT_DIR$/idionative/templates/page.html" />
         <option value="$PROJECT_DIR$/idionative/settings.py" />
-        <option value="$PROJECT_DIR$/idionative/models.py" />
         <option value="$PROJECT_DIR$/idionative/templates/index.html" />
         <option value="$PROJECT_DIR$/idionative/urls.py" />
         <option value="$PROJECT_DIR$/idionative/views.py" />
+        <option value="$PROJECT_DIR$/idionative/models.py" />
         <option value="$PROJECT_DIR$/idionative/templates/course.html" />
       </list>
     </option>
@@ -315,12 +316,12 @@
       <workItem from="1560193800849" duration="1885000" />
       <workItem from="1560233150746" duration="3740000" />
       <workItem from="1560242887323" duration="300000" />
-      <workItem from="1560255529394" duration="7611000" />
+      <workItem from="1560255529394" duration="7873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124616000" />
+    <option name="totallyTimeSpent" value="124878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -497,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/static/css/course.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -552,10 +546,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="38" column="131" selection-start-line="38" selection-start-column="131" selection-end-line="38" selection-end-column="131" />
+          <caret line="38" column="149" selection-start-line="38" selection-start-column="149" selection-end-line="38" selection-end-column="149" />
         </state>
       </provider>
     </entry>
