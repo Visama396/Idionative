@@ -103,6 +103,11 @@ html {
     text-align: justify;
 }
 
+#courses .card-img-top {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* DICTIONARY */
 
 #dictionary {
