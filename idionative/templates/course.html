@@ -20,7 +20,7 @@
                     <div class="col-12">
                         {% if units != None %}
                             {% for unit in units %}
-                                <a class="card" href="{% url 'page' unitpk=unit.pk pagepk=1 %}" style="width: 100%">
+                                <a class="card" href="{% url 'page' courseslug=course.slug unitslug=unit.slug pagepk=1 %}" style="width: 100%">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ unit.pk }}. {{ unit.title }}</h5>
                                         <h6 class="card-subtitle">{{ unit.description }}</h6>
