@@ -34,13 +34,17 @@ def course(request, coursepk):
         units_list = Unit.objects.filter(course=course_info).order_by('pk')
     except Unit.DoesNotExist:
         units_list = None
+
+    try:
+        pages_list = Page.objects.filter(unit=)
         
     return render(request, 'course.html', {'course': course_info, 'units': units_list, 'template': "course"})
 
 
 def page(request, coursepk, unitpk, pagepk):
 
-    return render(request, 'page.html', {'page'})
+    return render(request, 'page.html', {'page': "", 'template': "page"})
+
 
 def home_files(request):
     return HttpResponse('<p>Hello Home Files</p>')
