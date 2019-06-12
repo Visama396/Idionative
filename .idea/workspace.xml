@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idionative/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idionative/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="779">
-              <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+              <caret line="80" column="64" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
               <folding>
                 <element signature="e#3241#3260#0#HTML" expanded="true" />
               </folding>
@@ -325,12 +324,12 @@
       <workItem from="1560242887323" duration="300000" />
       <workItem from="1560255529394" duration="8754000" />
       <workItem from="1560319288427" duration="4318000" />
-      <workItem from="1560338275927" duration="1988000" />
+      <workItem from="1560338275927" duration="2222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132065000" />
+    <option name="totallyTimeSpent" value="132299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -549,7 +548,7 @@
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
-          <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+          <caret line="80" column="64" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
           <folding>
             <element signature="e#3241#3260#0#HTML" expanded="true" />
           </folding>

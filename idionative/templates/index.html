@@ -78,7 +78,7 @@
                                             <h5 class="card-title">{{ n.title }}</h5>
                                         </div>
                                         <div class="card-body">
-                                            <p>{{ n.content }}</p>
+                                            <p>{{ n.content|safe }}</p>
                                         </div>
                                     </div>
                                 {% endif %}
