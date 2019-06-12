@@ -20,75 +20,75 @@ msgstr ""
 
 #: idionative/settings.py:132 idionative/templates/base.html:68
 msgid "English"
-msgstr ""
+msgstr "Englisch"
 
 #: idionative/settings.py:133 idionative/templates/base.html:69
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 #: idionative/settings.py:134 idionative/templates/base.html:70
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: idionative/settings.py:135 idionative/templates/base.html:71
 msgid "Japanese"
-msgstr ""
+msgstr "Japanisch"
 
 #: idionative/settings.py:136 idionative/templates/base.html:72
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugiesisch"
 
 #: idionative/settings.py:137 idionative/templates/base.html:74
 msgid "Korean"
-msgstr ""
+msgstr "Koreanisch"
 
 #: idionative/settings.py:138 idionative/templates/base.html:73
 msgid "Galician"
-msgstr ""
+msgstr "Galicisch"
 
 #: idionative/settings.py:139 idionative/templates/base.html:76
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamesisch"
 
 #: idionative/settings.py:140 idionative/templates/base.html:75
 msgid "Dutch"
-msgstr ""
+msgstr "Niederländisch"
 
 #: idionative/templates/base.html:46
 msgid "Home"
-msgstr ""
+msgstr "Start"
 
 #: idionative/templates/base.html:50
 msgid "Courses"
-msgstr ""
+msgstr "Kurse"
 
 #: idionative/templates/base.html:53 idionative/templates/index.html:43
 msgid "Dictionary"
-msgstr ""
+msgstr "Wörterbuch"
 
 #: idionative/templates/base.html:56 idionative/templates/index.html:63
 msgid "News"
-msgstr ""
+msgstr "Nachrichten"
 
 #: idionative/templates/base.html:60
 msgid "Log in/Sign up"
-msgstr ""
+msgstr "Einloggen / Anmelden"
 
 #: idionative/templates/base.html:65
 msgid "Change language"
-msgstr ""
+msgstr "Sprache ändern"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
-msgstr ""
+msgstr "Eine Sprache zu lernen"
 
 #: idionative/templates/index.html:112
 msgid "Social networks"
-msgstr ""
+msgstr "Soziale Netzwerke"
 
 #: idionative/templates/index.html:122 idionative/templates/index.html:130
 msgid "About Idionative"
-msgstr ""
+msgstr "Über Idionative"
 
 #: idionative/templates/index.html:135
 msgid ""
@@ -118,4 +118,4 @@ msgstr ""
 
 #: idionative/templates/index.html:142
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
