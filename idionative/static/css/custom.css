@@ -120,6 +120,10 @@ html {
     padding-top: 100px;
 }
 
+#news .card {
+    margin: 1em 0;
+}
+
 /* FOOTER */
 
 #social img {
