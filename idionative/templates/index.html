@@ -49,6 +49,9 @@
                         <form>
                             <select class="custom-select">
                                 <option value="0">Select a language</option>
+                                {% for l in languages %}
+                                    <option value="{{ l.code_2 }}">{{ l.name }}</option>
+                                {% endfor %}
                             </select>
                         </form>
                     </div>
