@@ -34,7 +34,7 @@
 <body>
 <nav id="topnav" class="navbar navbar-expand-xl navbar-dark fixed-top {% if template == "course" or template == "page" %}bg-dark{% endif %}">
     <div class="container">
-        <a class="navbar-brand mr-auto" href="">
+        <a class="navbar-brand mr-auto" href="{% url "home" %}">
             <img src="{% static "assets/logo.png" %}" alt="logo" style="width: 64px"> Idionative
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"

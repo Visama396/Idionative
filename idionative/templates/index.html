@@ -70,7 +70,22 @@
 
                 <section class="row justify-content-center news-cont">
                     <div class="col-12 col-xl-5">
-                        <p>No news yet</p>
+                        {% if news != None %}
+                            {% for n in news %}
+                                {% if n.language_news.code_2 == LANGUAGE_CODE %}
+                                    <div class="card" style="width: 100%">
+                                        <div class="card-header">
+                                            <h5 class="card-title">{{ n.title }}</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p>{{ n.content }}</p>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            <p>No news yet</p>
+                        {% endif %}
                     </div>
                     <div class="col-12 col-xl-3">
                         <div class="toast" data-autohide="false">
