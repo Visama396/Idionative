@@ -54,7 +54,7 @@ def course(request, coursepk):
     return render(request, 'course.html', {'course': course_info, 'units': units_list, 'pages': page_list, 'template': "course"})
 
 
-def page(request, coursepk, unitpk, pagepk):
+def page(request, coursepk, unitpk, page):
     course_info = Course.objects.get(pk=coursepk)
 
     return render(request, 'page.html', {'course': course_info, 'page': "", 'template': "page"})
