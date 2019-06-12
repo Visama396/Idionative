@@ -45,8 +45,9 @@
                 </header>
 
                 <section class="row dictionary-cont">
-                    <div class="col-12">
+                    <div class="col-12 col-xl-8">
                         <form>
+                            <input placeholder="{% trans "Search a word" %}">
                             <select class="custom-select">
                                 <option value="0">Select a language</option>
                                 {% for l in languages %}
