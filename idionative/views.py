@@ -57,7 +57,7 @@ def course(request, coursepk):
 def page(request, coursepk, unitpk, pagepk):
     course_info = Course.objects.get(pk=coursepk)
 
-    return render(request, 'page.html', {'page': "", 'template': "page"})
+    return render(request, 'page.html', {'course': course_info, 'page': "", 'template': "page"})
 
 
 def home_files(request):

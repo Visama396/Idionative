@@ -81,6 +81,7 @@ class Page(models.Model):
     title = models.CharField(max_length=100, default='')
     content = models.TextField()
     unit = models.ForeignKey('Unit', on_delete=models.CASCADE)
+    page_order = models.IntegerField(default=1)
 
     def __str__(self):
         return '{}: {}'.format(self.unit, self.title)
