@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idionative/static/css/course.css" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/css/course.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/static/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/css/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idionative/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="53" column="120" selection-start-line="53" selection-start-column="120" selection-end-line="53" selection-end-column="120" />
+            <state relative-caret-position="292">
+              <caret line="46" column="74" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -48,6 +47,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-156">
               <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,7 +89,6 @@
         <option value="$PROJECT_DIR$/idionative/static/js/custom.js" />
         <option value="$PROJECT_DIR$/idionative/serializers.py" />
         <option value="$PROJECT_DIR$/idionative/templates/course.html" />
-        <option value="$PROJECT_DIR$/idionative/static/css/custom.css" />
         <option value="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/idionative/urls.py" />
         <option value="$PROJECT_DIR$/idionative/models.py" />
@@ -92,6 +99,7 @@
         <option value="$PROJECT_DIR$/idionative/static/css/page.css" />
         <option value="$PROJECT_DIR$/idionative/static/css/course.css" />
         <option value="$PROJECT_DIR$/idionative/templates/index.html" />
+        <option value="$PROJECT_DIR$/idionative/static/css/custom.css" />
       </list>
     </option>
   </component>
@@ -253,12 +261,12 @@
       <workItem from="1560319288427" duration="4318000" />
       <workItem from="1560338275927" duration="3413000" />
       <workItem from="1560344531684" duration="2544000" />
-      <workItem from="1560410002958" duration="10179000" />
+      <workItem from="1560410002958" duration="10281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146213000" />
+    <option name="totallyTimeSpent" value="146315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -470,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/static/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -486,8 +487,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="53" column="120" selection-start-line="53" selection-start-column="120" selection-end-line="53" selection-end-column="120" />
+        <state relative-caret-position="292">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
         </state>
       </provider>
     </entry>
