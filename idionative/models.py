@@ -62,7 +62,7 @@ class Unit(models.Model):
 
 class Page(models.Model):
     title = models.CharField(max_length=100, default='')
-    content = models.TextField()
+    content = HTMLField()
     unit = models.ForeignKey('Unit', on_delete=models.CASCADE)
     page_order = models.IntegerField(default=1)
 
