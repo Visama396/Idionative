@@ -22,12 +22,13 @@
                     <div class="col-12 d-flex justify-content-center flex-nowrap px-3">
                         {% for course in courses %}
                             {% if course.lang.code_2 == LANGUAGE_CODE %}
-                                <a class="card" href="{% url 'course' coursepk=course.pk %}" style="margin: 0 1em; min-width: 300px">
-                                <img src="{{ course.image }}" alt="course image" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ course.title }}</h5>
-                                    <p class="card-text">{{ course.description }}</p>
-                                </div>
+                                <a class="card" href="{% url 'course' coursepk=course.pk %}"
+                                   style="margin: 0 1em; min-width: 300px">
+                                    <img src="{{ course.image }}" alt="course image" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ course.title }}</h5>
+                                        <p class="card-text">{{ course.description }}</p>
+                                    </div>
                                 </a>
                             {% endif %}
                         {% endfor %}
@@ -49,9 +50,12 @@
                         <form>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="searchWord" placeholder="{% trans "Search a word" %}">
+                                    <input type="text" class="form-control" id="searchWord"
+                                           placeholder="{% trans "Search a word" %}">
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
+                                        <button class="btn btn-outline-secondary" type="button" id="searchButton">
+                                            Search
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -70,11 +74,11 @@
                 </header>
 
                 <section class="row justify-content-center news-cont">
-                    <div class="col-12 col-xl-5">
+                    <div class="col-xl-6">
                         {% if news != None %}
                             {% for n in news %}
                                 {% if n.language_news.code_2 == LANGUAGE_CODE %}
-                                    <div class="card" style="width: 100%">
+                                    <div class="card">
                                         <div class="card-header">
                                             <h5 class="card-title">{{ n.title }}</h5>
                                         </div>
@@ -88,22 +92,38 @@
                             <p>No news yet</p>
                         {% endif %}
                     </div>
-                    <div class="col-12 col-xl-3">
-                        <div class="toast" data-autohide="false">
-                            <div class="toast-header">
-                                <img src="{% static "assets/logo.png" %}" class="rounded mr-2" style="width: 30px; height: 30px" alt="logo">
-                                <strong class="mr-auto text-primary">Wouter's Donuts</strong>
-                                <small class="text-muted">1 hour ago</small>
-                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
-                            </div>
-                            <div class="toast-body">
-                                This morning Nhi and me went to Dunkin' Donuts to buy Wouter's birthday donuts.
-                            </div>
-                        </div>
-                    </div>
                 </section>
             </div>
         </div>
+
+        <aside class="modal" id="about-idionative">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <header class="modal-header">
+                        <h4 class="modal-title">{% trans "About Idionative" %}</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </header>
+
+                    <section class="modal-body">
+                        <p>{% blocktrans %}Idionative is a project I made 3 years ago for a class task while I was
+                            studying IT.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}I like helping other people so I had the idea of teaching my language to
+                            those who want to learn, or at least, to help to whoever is interested on
+                            it.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}The project started with only Spanish, English and Japanese as available
+                            languages. But it's been growing little by little as more people wanted to
+                            help.{% endblocktrans %}</p>
+                        <p>{% blocktrans %}This is a volunteer work so even though it's not perfect, the team working in
+                            Idionative is doing its best to make it great and cool for all people who want to use the
+                            information of this website.{% endblocktrans %}</p>
+                    </section>
+
+                    <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">{% trans "Close" %}</button>
+                    </footer>
+                </div>
+            </div>
+        </aside>
 
         <footer class="row" id="footer">
             <div class="col-12 col-lg-6 text-center align-self-center">
@@ -117,30 +137,10 @@
                 </nav>
             </div>
             <div class="col-12 col-lg-6 text-center align-self-center">
-                © Copyright 2019 idionative.sytes.net <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative" style="color: white">{% trans "About Idionative" %}</button>
+                © Copyright 2019 idionative.sytes.net
+                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative"
+                        style="color: white">{% trans "About Idionative" %}</button>
             </div>
         </footer>
-
-        <aside class="modal" id="about-idionative">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <header class="modal-header">
-                        <h4 class="modal-title">{% trans "About Idionative" %}</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </header>
-
-                    <section class="modal-body">
-                        <p>{% blocktrans %}Idionative is a project I made 3 years ago for a class task while I was studying IT.{% endblocktrans %}</p>
-                        <p>{% blocktrans %}I like helping other people so I had the idea of teaching my language to those who want to learn, or at least, to help to whoever is interested on it.{% endblocktrans %}</p>
-                        <p>{% blocktrans %}The project started with only Spanish, English and Japanese as available languages. But it's been growing little by little as more people wanted to help.{% endblocktrans %}</p>
-                        <p>{% blocktrans %}This is a volunteer work so even though it's not perfect, the team working in Idionative is doing its best to make it great and cool for all people who want to use the information of this website.{% endblocktrans %}</p>
-                    </section>
-
-                    <footer class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">{% trans "Close" %}</button>
-                    </footer>
-                </div>
-            </div>
-        </aside>
     </main>
 {% endblock %}
