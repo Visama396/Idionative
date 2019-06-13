@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Mostrar texto "Learn a language"
     // Después mostrar "Expand new horizons"
     // Comprobar idioma del sitio para traducir título
-    lang = window.location.pathname.slice(1, 3);
+    lang = $("html").attr('lang');
     var subtitle;
     if (lang === 'en') {
         subtitle = new Typed("#subtitulo", {
@@ -88,7 +88,9 @@ $(document).ready(function () {
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
         data.forEach(function(entry) {
             console.log(entry);
-            dictionary.push({value: entry.pk.toString(), label: entry.name})
+            if (lang === entry.lang) {
+                dictionary.push(entry.name)
+            }
         });
     });
 
