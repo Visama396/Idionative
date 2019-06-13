@@ -147,6 +147,8 @@ html {
 }
 
 #footer {
+    margin-top: 8em;
+    padding: 2em 0;
     color: white;
     background-color: #001427;
 }
