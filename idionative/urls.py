@@ -9,6 +9,7 @@ from .views import WordList, CourseList
 
 urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$', home_files, name='home-files')
+    url(r'^tinymce/', include('tinymce.urls')),
 ]
 
 urlpatterns += i18n_patterns(

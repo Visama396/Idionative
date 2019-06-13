@@ -1,5 +1,6 @@
 from django.db import models
 
+from tinymce.models import HTMLField
 
 class Language(models.Model):
     name = models.CharField(max_length=200)
@@ -72,7 +73,7 @@ class Page(models.Model):
 class News(models.Model):
     title = models.CharField(max_length=200)
     pub_date = models.DateField()
-    content = models.TextField()
+    content = HTMLField()
     author = models.ForeignKey('User', on_delete=models.CASCADE)
     language_news = models.ForeignKey('Language', on_delete=models.CASCADE, default='en')
 
