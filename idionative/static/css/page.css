@@ -2,13 +2,10 @@
 
 .page-header {
     margin-top: 8em;
+    margin-bottom: 2em;
 }
 
 .page-header h1 {
-    margin-bottom: .5em;
-}
-
-.page-header h2 {
     margin-bottom: .5em;
 }
 
@@ -18,8 +15,4 @@
 
 .unit-info .card li {
     list-style-type: none;
-}
-
-.page-content {
-    margin-top: 1em;
 }
