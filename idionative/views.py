@@ -66,7 +66,7 @@ def page(request, coursepk, unitpk, page):
         unit_info = None
 
     try:
-        page_info = Page.objects.filter(unit=unitpk).filter(page_order=page)
+        page_info = Page.objects.filter(unit=unitpk).get(page_order=page)
     except Page.DoesNotExist:
         page_info = None
 

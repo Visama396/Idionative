@@ -3,11 +3,18 @@
 {% load static %}
 {% block content %}
     <main class="container-fluid">
+    {% if page != None %}
         <div class="row page-header">
             <div class="col-12 text-center">
-                <h1></h1>
-                <h2></h2>
+                <h1>{{ unit.title }}</h1>
+                <h2>{{ page.title }}</h2>
             </div>
         </div>
+        <div class="row page-content">
+        <div class="col-12">
+            {{ page.content }}
+        </div>
+        </div>
+    {% endif %}
     </main>
 {% endblock %}
