@@ -71,7 +71,7 @@ def page(request, coursepk, unitpk, page):
         page_info = None
 
     try:
-        page_list = Page.objects.filter(unit=unitpk)
+        page_list = Page.objects.filter(unit=unitpk).order_by('page_order')
     except Page.DoesNotExist:
         page_list = None
 
