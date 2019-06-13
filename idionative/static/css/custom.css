@@ -31,6 +31,10 @@ html {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+.ui-helper-hidden-accessible {
+    display: none !important;
+}
+
 /* NAVBAR */
 
 .dropdown-menu {
