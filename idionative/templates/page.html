@@ -12,7 +12,22 @@
         </div>
         <div class="row justify-content-center page-content">
         <div class="d-none d-xl-block col-2">
-
+            <div class="card">
+                <div class="card-header">
+                    <h5>{{ unit.title }}</h5>
+                </div>
+                <div class="card-body">
+                    {% if page_list != None %}
+                        <ul>
+                        {% for p in page_list %}
+                            <li>{{ p.title }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p>No pages</p>
+                    {% endif %}
+                </div>
+            </div>
         </div>
         <div class="col-12 col-xl-8">
             {{ page.content|safe }}

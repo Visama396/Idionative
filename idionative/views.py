@@ -70,7 +70,12 @@ def page(request, coursepk, unitpk, page):
     except Page.DoesNotExist:
         page_info = None
 
-    return render(request, 'page.html', {'course': course_info, 'unit': unit_info, 'page': page_info, 'template': "page"})
+    try:
+        page_list = Page.objects.filter(unit=unitpk)
+    except Page.DoesNotExist:
+        page_list = None
+
+    return render(request, 'page.html', {'course': course_info, 'unit': unit_info, 'page': page_info, 'page_list': page_list, 'template': "page"})
 
 
 def home_files(request):
