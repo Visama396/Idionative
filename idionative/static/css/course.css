@@ -15,3 +15,7 @@
     color: black;
     text-decoration: none;
 }
+
+.units-list .card li {
+    list-style-type: none;
+}
