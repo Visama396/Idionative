@@ -32,8 +32,8 @@ class CourseList(APIView):
 
 
 def home(request):
-    courses_list = Course.objects.all()
-    languages_list = Language.objects.all()
+    courses_list = Course.objects.all().order_by('pk')
+    languages_list = Language.objects.all().order_by('pk')
     news_list = News.objects.all().order_by('pk')
     return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list, 'news': news_list, 'template': "home"})
 

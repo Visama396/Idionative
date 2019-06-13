@@ -75,6 +75,7 @@ html {
 /* COURSES */
 
 #courses {
+    height: auto;
     padding-top:  100px;
 }
 
