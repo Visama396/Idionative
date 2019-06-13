@@ -79,6 +79,10 @@ html {
     padding-top:  100px;
 }
 
+.course-header {
+    margin-bottom: 2em;
+}
+
 #courses .card {
     max-width: 300px;
     min-width: 300px;

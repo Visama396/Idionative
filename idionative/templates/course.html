@@ -3,7 +3,6 @@
 {% load static %}
 {% block content %}
     <main class="container">
-
         <header class="row course-header">
             <div class="col-12">
                 {% if course != None %}
@@ -27,8 +26,8 @@
                             {% if units != None %}
                                 {% for unit in units %}
                                     <div class="card"
-                                       style="width: 100%">
-                                        <div class="card-header" >
+                                         style="width: 100%">
+                                        <div class="card-header">
                                             <h5 class="card-title">{{ unit.pk }}. {{ unit.title }}</h5>
                                             <h6 class="card-subtitle">{{ unit.description }}</h6>
                                         </div>
@@ -36,7 +35,9 @@
                                             <ul>
                                                 {% for page in pages %}
                                                     {% if page.unit.pk == unit.pk and unit.course.pk == course.pk %}
-                                                        <li><a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=page.page_order %}">{{ page.page_order }}. {{ page.title }}</a></li>
+                                                        <li>
+                                                            <a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=page.page_order %}">{{ page.page_order }}. {{ page.title }}</a>
+                                                        </li>
                                                     {% endif %}
                                                 {% endfor %}
                                             </ul>

@@ -3,36 +3,38 @@
 {% load static %}
 {% block content %}
     <main class="container-fluid">
-    {% if page != None %}
-        <div class="row page-header">
-            <div class="col-12 text-center">
-                <h1>{{ unit.title }}</h1>
-                <h2>{{ page.title }}</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-        <div class="d-none d-xl-block col-2 unit-info">
-            <div class="card">
-                <div class="card-header">
-                    <h5>{{ unit.title }}</h5>
+        {% if page != None %}
+            <section class="row page-header">
+                <div class="col-12 text-center">
+                    <h1>{{ unit.title }}</h1>
+                    <h2>{{ page.title }}</h2>
                 </div>
-                <div class="card-body">
-                    {% if page_list != None %}
-                        <ul>
-                        {% for p in page_list %}
-                            <li><a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=p.page_order %}">{{ p.page_order }}. {{ p.title }}</a></li>
-                        {% endfor %}
-                        </ul>
-                    {% else %}
-                        <p>No pages</p>
-                    {% endif %}
+            </section>
+            <section class="row justify-content-center">
+                <div class="d-none d-xl-block col-2 unit-info">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>{{ unit.title }}</h5>
+                        </div>
+                        <div class="card-body">
+                            {% if page_list != None %}
+                                <ul>
+                                    {% for p in page_list %}
+                                        <li>
+                                            <a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=p.page_order %}">{{ p.page_order }}. {{ p.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p>No pages</p>
+                            {% endif %}
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-12 col-xl-8 page-content text-justify">
-            {{ page.content|safe }}
-        </div>
-        </div>
-    {% endif %}
+                <div class="col-12 col-xl-8 page-content text-justify">
+                    {{ page.content|safe }}
+                </div>
+            </section>
+        {% endif %}
     </main>
 {% endblock %}
