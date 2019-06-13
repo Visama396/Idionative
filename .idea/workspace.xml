@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="165" column="153" selection-start-line="165" selection-start-column="153" selection-end-line="165" selection-end-column="153" />
+            <state relative-caret-position="479">
+              <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
             </state>
           </provider>
         </entry>
@@ -326,12 +326,12 @@
       <workItem from="1560319288427" duration="4318000" />
       <workItem from="1560338275927" duration="3413000" />
       <workItem from="1560344531684" duration="2544000" />
-      <workItem from="1560410002958" duration="4298000" />
+      <workItem from="1560410002958" duration="5290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140332000" />
+    <option name="totallyTimeSpent" value="141324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -559,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="165" column="153" selection-start-line="165" selection-start-column="153" selection-end-line="165" selection-end-column="153" />
+        <state relative-caret-position="479">
+          <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
         </state>
       </provider>
     </entry>
