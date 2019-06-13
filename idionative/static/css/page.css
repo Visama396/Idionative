@@ -4,6 +4,10 @@
     margin-top: 8em;
 }
 
+.unit-info .card ul {
+    padding-inline-start: 0;
+}
+
 .unit-info .card li {
     list-style-type: none;
 }

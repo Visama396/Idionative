@@ -16,6 +16,10 @@
     text-decoration: none;
 }
 
+/*.units-list .card ul {
+    padding-inline-start: 0;
+}*/
+
 .units-list .card li {
     list-style-type: none;
 }
