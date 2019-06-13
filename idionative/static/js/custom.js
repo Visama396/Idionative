@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     // Mostrar texto "Learn a language"
     // Después mostrar "Expand new horizons"
-    // Check language
+    // Comprobar idioma del sitio para traducir título
     lang = window.location.pathname.slice(1, 3);
     var subtitle;
     if (lang === 'en') {
@@ -55,7 +55,7 @@ $(document).ready(function () {
     // Hacer función que cambie el slide actual por el siguiente
     // Cuándo se llegue al último slide se repetirá el ciclo.
 
-    // Cuando el scroll pase la seccion parallax, que el texto cambie de color para que se pueda ver.
+    // Cuando el scroll pase 80px de altura, cambiar estilo del navbar para poder ver el contenido
     function cambiarNav() {
         if ($(window).width() > 1200) {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -82,4 +82,8 @@ $(document).ready(function () {
     cambiarNav();
 
     $(".toast").toast('show');
+
+    // Funcionamiento del diccionario
+
+
 });
