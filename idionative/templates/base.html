@@ -32,7 +32,8 @@
     <title>Idionative · Home</title>
 </head>
 <body>
-<nav id="topnav" class="navbar navbar-expand-xl navbar-dark fixed-top {% if template == "course" or template == "page" %}bg-dark{% endif %}">
+<nav id="topnav"
+     class="navbar navbar-expand-xl navbar-dark fixed-top {% if template == "course" or template == "page" %}bg-dark{% endif %}">
     <div class="container">
         <a class="navbar-brand mr-auto" href="{% url "home" %}">
             <img src="{% static "assets/logo.png" %}" alt="logo" style="width: 64px"> Idionative
@@ -58,26 +59,43 @@
                         <a href="#news" class="nav-link" lang="{{ LANGUAGE_CODE }}">{% trans "News" %}</a>
                     </li>
                 {% endif %}
-                <li class="nav-item">
+                {% if template == "page" %}
+                    <li class="nav-item">
+                        <a href="{% url 'course' coursepk=course.pk %}" class="nav-link">Back to course page</a>
+                    </li>
+                {% endif %}
+                <!--<li class="nav-item">
                     <a href="#" class="nav-link" lang="{{ LANGUAGE_CODE }}">{% trans "Log in/Sign up" %}</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="languages" role="button" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false" lang="{{ LANGUAGE_CODE }}">
-                        {% trans "Change language" %}
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="languages">
-                        <a class="dropdown-item" href="http://idionative.sytes.net/en/" lang="{{ LANGUAGE_CODE }}">{% trans "English" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/es/" lang="{{ LANGUAGE_CODE }}">{% trans "Spanish" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/de/" lang="{{ LANGUAGE_CODE }}">{% trans "German" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/ja/" lang="{{ LANGUAGE_CODE }}">{% trans "Japanese" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/pt/" lang="{{ LANGUAGE_CODE }}">{% trans "Portuguese" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/gl/" lang="{{ LANGUAGE_CODE }}">{% trans "Galician" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/ko/" lang="{{ LANGUAGE_CODE }}">{% trans "Korean" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/nl/" lang="{{ LANGUAGE_CODE }}">{% trans "Dutch" %}</a>
-                        <a class="dropdown-item" href="http://idionative.sytes.net/vi/" lang="{{ LANGUAGE_CODE }}">{% trans "Vietnamese" %}</a>
-                    </div>
-                </li>
+                </li>-->
+                {% if template == "home" %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languages" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false" lang="{{ LANGUAGE_CODE }}">
+                            {% trans "Change language" %}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languages">
+                            <a class="dropdown-item" href="http://idionative.sytes.net/en/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "English" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/es/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Spanish" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/de/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "German" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/ja/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Japanese" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/pt/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Portuguese" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/gl/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Galician" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/ko/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Korean" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/nl/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Dutch" %}</a>
+                            <a class="dropdown-item" href="http://idionative.sytes.net/vi/"
+                               lang="{{ LANGUAGE_CODE }}">{% trans "Vietnamese" %}</a>
+                        </div>
+                    </li>
+                {% endif %}
+
             </ul>
         </div>
     </div>
