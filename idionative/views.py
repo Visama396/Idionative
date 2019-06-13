@@ -60,7 +60,17 @@ def page(request, coursepk, unitpk, page):
     except Course.DoesNotExist:
         course_info = None
 
-    return render(request, 'page.html', {'course': course_info, 'page': "", 'template': "page"})
+    try:
+        unit_info = Unit.objects.get(pk=unitpk)
+    except Unit.DoesNotExist:
+        unit_info = None
+
+    try:
+        page_info = Page.objects.filter(unit=unitpk).filter(page_order=page)
+    except Page.DoesNotExist:
+        page_info = None
+
+    return render(request, 'page.html', {'course': course_info, 'unit': unit_info, 'page': page_info, 'template': "page"})
 
 
 def home_files(request):
