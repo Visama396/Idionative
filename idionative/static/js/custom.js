@@ -88,7 +88,7 @@ $(document).ready(function () {
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
         data.forEach(function(entry) {
             console.log(entry);
-            if (lang === entry.lang) {
+            if (lang === entry.language) {
                 dictionary.push(entry.name)
             }
         });
