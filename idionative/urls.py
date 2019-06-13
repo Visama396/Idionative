@@ -9,7 +9,6 @@ from .views import WordList, CourseList
 
 urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$', home_files, name='home-files')
-    url(r'^tinymce/', include('tinymce.urls')),
 ]
 
 urlpatterns += i18n_patterns(
@@ -19,4 +18,5 @@ urlpatterns += i18n_patterns(
     url(r'^courses/(?P<coursepk>\d+)$', course, name='course'),
     url(r'^courses/(?P<coursepk>\d+)/unit-(?P<unitpk>\d+)/(?P<page>\d+)$', page, name='page'),
     url(r'^admin/', admin.site.urls),
+    url(r'^tinymce/', include('tinymce.urls')),
 )
