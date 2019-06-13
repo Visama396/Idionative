@@ -158,3 +158,10 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
 }
+
+# Tinymce
+
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': "advanced",
+    'toolbar': "bold italic underline strikethrough | alignleft aligncenter alignright align justify alignnone | fontselect fontsizeselect | removeformat"
+}
