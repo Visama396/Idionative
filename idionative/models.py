@@ -12,26 +12,8 @@ class Language(models.Model):
 
 
 class Word(models.Model):
-
-    NOUN = 'N'
-    ADJECTIVE = 'Adj'
-    ADVERB = 'Adv'
-    VERB = 'Verb'
-    PRONOUN = 'Pron'
-    PREPOSITION = 'Prep'
-
-    WORD_TYPE_CHOICES = [
-        (NOUN, 'Noun'),
-        (ADJECTIVE, 'Adjective'),
-        (ADVERB, 'Adverb'),
-        (VERB, 'Verb'),
-        (PRONOUN, 'Pronoun'),
-        (PREPOSITION, 'Preposition')
-    ]
-
     name = models.CharField(max_length=200)
     language = models.ForeignKey('Language', on_delete=models.CASCADE)
-    word_type = models.CharField(max_length=4, choices=WORD_TYPE_CHOICES, default=NOUN)
 
     def __str__(self):
         return self.name
@@ -102,8 +84,25 @@ class News(models.Model):
 
 
 class Meaning(models.Model):
+    NOUN = 'N'
+    ADJECTIVE = 'Adj'
+    ADVERB = 'Adv'
+    VERB = 'Verb'
+    PRONOUN = 'Pron'
+    PREPOSITION = 'Prep'
+
+    WORD_TYPE_CHOICES = [
+        (NOUN, 'Noun'),
+        (ADJECTIVE, 'Adjective'),
+        (ADVERB, 'Adverb'),
+        (VERB, 'Verb'),
+        (PRONOUN, 'Pronoun'),
+        (PREPOSITION, 'Preposition')
+    ]
+
     word = models.ForeignKey('Word', on_delete=models.CASCADE)
     meaning = models.CharField(max_length=200)
+    word_type = models.CharField(max_length=4, choices=WORD_TYPE_CHOICES, default=NOUN)
 
     def __str__(self):
         return '{}. {}'.format(self.word.name, self.meaning)

@@ -55,7 +55,10 @@ def course(request, coursepk):
 
 
 def page(request, coursepk, unitpk, page):
-    course_info = Course.objects.get(pk=coursepk)
+    try:
+        course_info = Course.objects.get(pk=coursepk)
+    except Course.DoesNotExist:
+        course_info = None
 
     return render(request, 'page.html', {'course': course_info, 'page': "", 'template': "page"})
 
