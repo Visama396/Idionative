@@ -84,12 +84,15 @@ $(document).ready(function () {
     $(".toast").toast('show');
 
     // Funcionamiento del diccionario
+    var dictionary = [];
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
-        console.log(data);
+        data.forEach(function(entry) {
+            console.log(entry);
+        });
     });
 
     $("#searchWord").autocomplete({
-        source: "http://idionative.sytes.net/en/api/words/?format=json",
+        source: dictionary,
         minLength: 2
     });
 
