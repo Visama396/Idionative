@@ -163,6 +163,6 @@ REST_FRAMEWORK = {
 
 TINYMCE_DEFAULT_CONFIG = {
     'theme': "advanced",
-    'toolbar1': "bold italic underline strikethrough | alignleft aligncenter alignright align justify alignnone | fontselect fontsizeselect",
+    'toolbar1': "bold italic underline strikethrough | alignleft aligncenter alignright align justify alignnone",
     'toolbar2': "table tabledelete | tablecellprops | tablemergecells tablesplitcells | tableinsertrowbefore tableinsertrowafter tabledeleterow tablerowprops"
 }

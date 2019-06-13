@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
+            <state relative-caret-position="462">
+              <caret line="165" column="111" selection-start-line="165" selection-start-column="111" selection-end-line="165" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -326,18 +323,18 @@
       <workItem from="1560319288427" duration="4318000" />
       <workItem from="1560338275927" duration="3413000" />
       <workItem from="1560344531684" duration="2544000" />
-      <workItem from="1560410002958" duration="5290000" />
+      <workItem from="1560410002958" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141324000" />
+    <option name="totallyTimeSpent" value="141854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -559,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idionative/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="166" column="158" lean-forward="true" selection-start-line="166" selection-start-column="158" selection-end-line="166" selection-end-column="158" />
+        <state relative-caret-position="462">
+          <caret line="165" column="111" selection-start-line="165" selection-start-column="111" selection-end-line="165" selection-end-column="111" />
         </state>
       </provider>
     </entry>
