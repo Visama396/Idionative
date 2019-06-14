@@ -157,6 +157,10 @@ html {
     background-color: #001427;
 }
 
+#footer .btn.btn-link {
+    color: white !important;
+    text-decoration: underline !important;
+}
 
 @media screen and (min-width: 768px) {
     #titulo {
