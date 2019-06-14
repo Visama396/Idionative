@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-14 08:05+0000\n"
+"POT-Creation-Date: 2019-06-14 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,51 +86,79 @@ msgstr "Comenza a aprender unha lingua"
 msgid "Search a word"
 msgstr "Busca unha palabra"
 
-#: idionative/templates/index.html:105 idionative/templates/index.html:144
+#: idionative/templates/index.html:105 idionative/templates/index.html:153
 msgid "About Idionative"
 msgstr "Acerca de Idionative"
 
-#: idionative/templates/index.html:110
+#: idionative/templates/index.html:111
+#, fuzzy
+#| msgid ""
+#| "Idionative is a project I made 3 years ago for a class task while I was "
+#| "studying IT."
 msgid ""
-"Idionative is a project I made 3 years ago for a class task while I was "
-"studying IT."
+"\n"
+"                                Idionative is a project I made 3 years ago "
+"for a class task while I was studying IT.\n"
+"                            "
 msgstr ""
 "Idionative é un proxecto que creei hai 3 anos para un traballo de clase "
 "cando estaba a estudiar informática."
 
-#: idionative/templates/index.html:112
+#: idionative/templates/index.html:116
+#, fuzzy
+#| msgid ""
+#| "I like helping other people so I had the idea of teaching my language to "
+#| "those who want to learn, or at least, to help to whoever is interested on "
+#| "it."
 msgid ""
-"I like helping other people so I had the idea of teaching my language to "
-"those who want to learn, or at least, to help to whoever is interested on "
-"it."
+"\n"
+"                                I like helping other people so I had the "
+"idea of teaching my language to those who want to learn, or at least, to "
+"help to whoever is interested on it.\n"
+"                            "
 msgstr ""
 "Gústame axudar a outras persoas e por iso tiven a idea de ensinar o meu "
 "idioma a aqueles que querían aprendelo, ou axudar a quen estivesen "
 "interesados."
 
-#: idionative/templates/index.html:115
+#: idionative/templates/index.html:121
+#, fuzzy
+#| msgid ""
+#| "The project started with only Spanish, English and Japanese as available "
+#| "languages. But it's been growing little by little as more people wanted "
+#| "to help."
 msgid ""
-"The project started with only Spanish, English and Japanese as available "
-"languages. But it's been growing little by little as more people wanted "
-"to help."
+"\n"
+"                                The project started with only Spanish, "
+"English and Japanese as available languages. But it's been growing little by "
+"little as more people wanted to help.\n"
+"                            "
 msgstr ""
 "O proxecto comenzou con só Español, Inglés e Xaponés dispoñibles. Desde "
 "entón foi aumentando segundo máis persoas querían colaborar."
 
-#: idionative/templates/index.html:118
+#: idionative/templates/index.html:126
+#, fuzzy
+#| msgid ""
+#| "This is a volunteer work so even though it's not perfect, the team "
+#| "working in Idionative is doing its best to make it great and cool for all "
+#| "people who want to use the information of this website."
 msgid ""
-"This is a volunteer work so even though it's not perfect, the team "
-"working in Idionative is doing its best to make it great and cool for all "
-"people who want to use the information of this website."
+"\n"
+"                                This is a volunteer work so even though it's "
+"not perfect, the team working in Idionative is doing its best to make it "
+"great and cool for all people who want to use the information of this "
+"website.\n"
+"                            "
 msgstr ""
 "É un proxecto voluntario, e a pesar de que non sexa perfecto, o equipo que "
 "axudou en Idionative fixo o seu mellor esforzo para todas as persoas que "
 "queiran usar este sitio web."
 
-#: idionative/templates/index.html:124
+#: idionative/templates/index.html:133
 msgid "Close"
 msgstr "Pechar"
 
-#: idionative/templates/index.html:132
+#: idionative/templates/index.html:141
 msgid "Social networks"
 msgstr "Redes sociais"
