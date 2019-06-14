@@ -103,11 +103,6 @@ msgstr ""
 "terwijl ik IT aan het studeren was."
 
 #: idionative/templates/index.html:114
-#, fuzzy
-#| msgid ""
-#| "I like helping other people so I had the idea of teaching my language to "
-#| "those who want to learn, or at least, to help to whoever is interested on "
-#| "it."
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
@@ -117,11 +112,6 @@ msgstr ""
 "iedereen die er interesse in heeft."
 
 #: idionative/templates/index.html:117
-#, fuzzy
-#| msgid ""
-#| "The project started with only Spanish, English and Japanese as available "
-#| "languages. But it's been growing little by little as more people wanted "
-#| "to help."
 msgid ""
 "The project started with only Spanish, English and Japanese as available "
 "languages. But it's been growing little by little as more people wanted to "
@@ -131,11 +121,6 @@ msgstr ""
 "Maar het groeide beetje bij beetje naarmate meer mensen wilden helpen."
 
 #: idionative/templates/index.html:120
-#, fuzzy
-#| msgid ""
-#| "This is a volunteer work so even though it's not perfect, the team "
-#| "working in Idionative is doing its best to make it great and cool for all "
-#| "people who want to use the information of this website."
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
 "in Idionative is doing its best to make it great and cool for all people who "
