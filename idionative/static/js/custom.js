@@ -59,19 +59,19 @@ $(document).ready(function () {
     function cambiarNav() {
         if ($(window).width() > 1200) {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                $("#topnav").removeClass('navbar-dark');
-                $("#topnav").addClass('navbar-light');
+                /*$("#topnav").removeClass('navbar-dark');
+                $("#topnav").addClass('navbar-light');*/
                 $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
                 $("#topnav").css('background', '#668586');
             } else {
-                $("#topnav").removeClass('navbar-light');
-                $("#topnav").addClass('navbar-dark');
+                /*$("#topnav").removeClass('navbar-light');
+                $("#topnav").addClass('navbar-dark');*/
                 $("#topnav").css('box-shadow', 'none');
                 $("#topnav").css('background', 'transparent');
             }
         } else {
-            $("#topnav").removeClass('navbar-dark');
-            $("#topnav").addClass('navbar-light');
+            /*$("#topnav").removeClass('navbar-dark');
+            $("#topnav").addClass('navbar-light');*/
             $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
             $("#topnav").css('background', '#668586');
         }
@@ -92,7 +92,7 @@ $(document).ready(function () {
     });
 
     $("#searchButton").click(function() {
-        $(".word-info").show();
+        $(".word-info").css('display', 'flex');
         $("#word-name").text($("#searchWord").val());
     });
 });
