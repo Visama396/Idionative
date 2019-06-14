@@ -56,7 +56,7 @@ msgstr "Nederlands"
 
 #: idionative/templates/base.html:49
 msgid "Home"
-msgstr "Voorpagina"
+msgstr "Home"
 
 #: idionative/templates/base.html:53
 msgid "Courses"
@@ -84,17 +84,13 @@ msgstr "Begin een taal te leren"
 
 #: idionative/templates/index.html:54
 msgid "Search a word"
-msgstr ""
+msgstr "Zoek een woord"
 
 #: idionative/templates/index.html:105 idionative/templates/index.html:145
 msgid "About Idionative"
 msgstr "Over Idionative"
 
 #: idionative/templates/index.html:111
-#, fuzzy
-#| msgid ""
-#| "Idionative is a project I made 3 years ago for a class task while I was "
-#| "studying IT."
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."

@@ -86,7 +86,7 @@ $(document).ready(function () {
         data.forEach(function(entry) {
             console.log(entry);
             if (lang === entry.language) {
-                $("#dictionary-list").append(`<option value="${entry.name}">`)
+                $("#words").append(`<option value="${entry.name}">`)
             }
         });
     });

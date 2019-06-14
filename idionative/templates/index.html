@@ -50,9 +50,9 @@
                         <form>
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="searchWord"
-                                           placeholder="{% trans "Search a word" %}" list="dictionary-list">
-                                    <datalist id="dictionary-list">
+                                    <input type="text" class="form-control flexdatalist" data-min-length="2" name="word" id="searchWord"
+                                           placeholder="{% trans "Search a word" %}" list="words">
+                                    <datalist id="words">
                                     </datalist>
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" type="button" id="searchButton">
