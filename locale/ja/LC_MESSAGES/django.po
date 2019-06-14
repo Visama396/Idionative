@@ -91,10 +91,6 @@ msgid "About Idionative"
 msgstr "Idionativeついて"
 
 #: idionative/templates/index.html:111
-#, fuzzy
-#| msgid ""
-#| "Idionative is a project I made 3 years ago for a class task while I was "
-#| "studying IT."
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
