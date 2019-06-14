@@ -81,22 +81,13 @@ $(document).ready(function () {
     window.onresize = cambiarNav;
     cambiarNav();
 
-    $(".toast").toast('show');
-
     // Funcionamiento del diccionario
-    var dictionary = [];
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
         data.forEach(function(entry) {
             console.log(entry);
             if (lang === entry.language) {
-                dictionary.push(entry.name)
+                $("#dictionary-list").append(`<option value="${entry.name}">`)
             }
         });
     });
-
-    $("#searchWord").autocomplete({
-        source: dictionary,
-        minLength: 2
-    });
-
 });

@@ -51,7 +51,9 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <input type="text" class="form-control" id="searchWord"
-                                           placeholder="{% trans "Search a word" %}">
+                                           placeholder="{% trans "Search a word" %}" list="dictionary-list">
+                                    <datalist id="dictionary-list">
+                                    </datalist>
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" type="button" id="searchButton">
                                             Search
