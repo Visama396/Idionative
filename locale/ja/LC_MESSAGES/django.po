@@ -84,7 +84,7 @@ msgstr "言語を学んで初めて"
 
 #: idionative/templates/index.html:54
 msgid "Search a word"
-msgstr ""
+msgstr "言葉を検索"
 
 #: idionative/templates/index.html:105 idionative/templates/index.html:144
 msgid "About Idionative"
