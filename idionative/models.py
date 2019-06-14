@@ -55,6 +55,7 @@ class Unit(models.Model):
     slug = models.CharField(max_length=100, default=str(title).lower().replace(' ', '-'), null=False)
     description = models.TextField()
     course = models.ForeignKey('Course', on_delete=models.CASCADE)
+    unit_order = models.PositiveIntegerField(default=1)
 
     def __str__(self):
         return '{}: {}'.format(self.course.title, self.title)
@@ -64,7 +65,7 @@ class Page(models.Model):
     title = models.CharField(max_length=100, default='')
     content = HTMLField()
     unit = models.ForeignKey('Unit', on_delete=models.CASCADE)
-    page_order = models.IntegerField(default=1)
+    page_order = models.PositiveIntegerField(default=1)
 
     def __str__(self):
         return '{}: {}'.format(self.unit, self.title)
