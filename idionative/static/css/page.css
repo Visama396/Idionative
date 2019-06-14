@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+#topnav {
+    background-color: #668586 !important;
+}
+
 .page-header {
     margin-top: 8em;
     margin-bottom: 2em;
@@ -18,5 +22,5 @@
 }
 
 .unit-info .card-body .active {
-    color: #82AEB1;
+    color: #2B2D42;
 }
