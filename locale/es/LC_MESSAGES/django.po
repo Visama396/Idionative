@@ -98,7 +98,6 @@ msgstr ""
 "Idionative es un proyecto que creé hace 3 años para un trabajo de clase cuando estaba estudiando informática."
 
 #: idionative/templates/index.html:114
-#, fuzzy
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
