@@ -5,8 +5,8 @@
     <main class="container-fluid">
         <section class="row text-center" id="home">
             <header class="parallax">
-                <h1 id="titulo">Idionative</h1>
-                <h3 id="subtitulo"></h3>
+                <h1 id="titulo" lang="{{ LANGUAGE_CODE }}">Idionative</h1>
+                <h3 id="subtitulo" lang="{{ LANGUAGE_CODE }}"></h3>
             </header>
         </section>
 
@@ -14,7 +14,7 @@
             <div class="col-12">
                 <header class="row courses-header text-center">
                     <div class="col-12">
-                        <h2>{% trans "Start learning a language" %}</h2>
+                        <h2 lang="{{ LANGUAGE_CODE }}">{% trans "Start learning a language" %}</h2>
                     </div>
                 </header>
 
@@ -23,7 +23,7 @@
                         {% for course in courses %}
                             {% if course.lang.code_2 == LANGUAGE_CODE %}
                                 <a class="card" href="{% url 'course' coursepk=course.pk %}"
-                                   style="margin: 0 1em; min-width: 300px">
+                                   style="margin: 0 1em; min-width: 300px" lang="{{ LANGUAGE_CODE }}">
                                     <img src="{{ course.image }}" alt="course image" class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ course.title }}</h5>
@@ -41,7 +41,7 @@
             <div class="col-12">
                 <header class="row dictionary-header text-center">
                     <div class="col-12">
-                        <h2>{% trans "Dictionary" %}</h2>
+                        <h2 lang="{{ LANGUAGE_CODE }}">{% trans "Dictionary" %}</h2>
                     </div>
                 </header>
 
@@ -55,8 +55,8 @@
                                     <datalist id="words">
                                     </datalist>
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary" type="button" id="searchButton">
-                                            Search
+                                        <button class="btn btn-outline-secondary" type="button" id="searchButton" lang="{{ LANGUAGE_CODE }}">
+                                            {% Search %}
                                         </button>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                 </section>
                 <section class="row word-info justify-content-center">
                     <div class="col-12 col-xl-8">
-                        <h3 id="word-name"></h3>
+                        <h3 id="word-name" lang="{{ LANGUAGE_CODE }}"></h3>
                     </div>
                 </section>
             </div>
@@ -76,7 +76,7 @@
             <div class="col-12">
                 <header class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <h2>{% trans "News" %}</h2>
+                        <h2 lang="{{ LANGUAGE_CODE }}">{% trans "News" %}</h2>
                     </div>
                 </header>
 
@@ -85,7 +85,7 @@
                         {% if news != None %}
                             {% for n in news %}
                                 {% if n.language_news.code_2 == LANGUAGE_CODE %}
-                                    <div class="card">
+                                    <div class="card" lang="{{ LANGUAGE_CODE }}">
                                         <div class="card-header">
                                             <h5 class="card-title">{{ n.title }}</h5>
                                         </div>
@@ -96,7 +96,7 @@
                                 {% endif %}
                             {% endfor %}
                         {% else %}
-                            <p>No news yet</p>
+                            <p lang="{{ LANGUAGE_CODE }}">No news yet</p>
                         {% endif %}
                     </div>
                 </section>
@@ -107,11 +107,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <header class="modal-header">
-                        <h4 class="modal-title">{% trans "About Idionative" %}</h4>
+                        <h4 class="modal-title" lang="{{ LANGUAGE_CODE }}">{% trans "About Idionative" %}</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </header>
 
-                    <section class="modal-body">
+                    <section class="modal-body" lang="{{ LANGUAGE_CODE }}">
                         <p>
                             {% blocktrans %}Idionative is a project I made 3 years ago for a class task while I was studying IT.{% endblocktrans %}
                         </p>
@@ -127,7 +127,7 @@
                     </section>
 
                     <footer class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">{% trans "Close" %}</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" lang="{{ LANGUAGE_CODE }}">{% trans "Close" %}</button>
                     </footer>
                 </div>
             </div>
@@ -135,19 +135,19 @@
 
         <footer class="row" id="footer">
             <div class="col-12 col-lg-6 text-center align-self-center">
-                <h2>{% trans "Social networks" %}</h2>
+                <h2 lang="{{ LANGUAGE_CODE }}">{% trans "Social networks" %}</h2>
                 <nav id="social" class="nav justify-content-center">
-                    <a class="nav-link" href="#"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
-                    <a class="nav-link" href="https://visama369.wordpress.com/"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
-                    <a class="nav-link" href="https://twitter.com/visama396"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/víctor-sánchez-martínez-434459154/"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
-                    <a class="nav-link" href="https://www.instagram.com/visama396/"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="#" target="_blank"><img src="{% static "assets/youtube.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="https://visama369.wordpress.com/" target="_blank"><img src="{% static "assets/wordpress.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="https://twitter.com/visama396" target="_blank"><img src="{% static "assets/twitter.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/víctor-sánchez-martínez-434459154/" target="_blank"><img src="{% static "assets/linkedin.png" %}" alt="Youtube"></a>
+                    <a class="nav-link" href="https://www.instagram.com/visama396/" target="_blank"><img src="{% static "assets/instagram.png" %}" alt="Youtube"></a>
                 </nav>
             </div>
             <div class="col-12 col-lg-6 text-center align-self-center">
                 © Copyright 2019 idionative.sytes.net
                 <button type="button" class="btn btn-link" data-toggle="modal" data-target="#about-idionative"
-                        style="color: white">{% trans "About Idionative" %}</button>
+                        style="color: white" lang="{{ LANGUAGE_CODE }}">{% trans "About Idionative" %}</button>
             </div>
         </footer>
     </main>

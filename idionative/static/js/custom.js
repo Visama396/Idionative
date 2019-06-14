@@ -20,7 +20,7 @@ $(document).ready(function () {
             break;
         case 'ja':
             subtitle = new Typed("#subtitulo", {
-                strings: ['^1000<span lang="ja">言語を学んで,<br>^1000新しいホライゾンを広げて</span>'],
+                strings: ['^1000言語を学んで,<br>^1000新しいホライゾンを広げて'],
                 typeSpeed: 60
             });
             break;
@@ -44,7 +44,7 @@ $(document).ready(function () {
             break;
         case 'ko':
             subtitle = new Typed("#subtitulo", {
-                strings: ['^1000<span lang="ko">언어 배우기,<br>^1000새로운 지평을 넓히기</span>'],
+                strings: ['^1000언어 배우기,<br>^1000새로운 지평을 넓히기'],
                 typeSpeed: 60
             });
             break;
