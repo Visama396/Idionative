@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 09:54+0000\n"
+"POT-Creation-Date: 2019-06-14 08:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,63 +18,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: idionative/settings.py:132 idionative/templates/base.html:68
+#: idionative/settings.py:133 idionative/templates/base.html:78
 msgid "English"
 msgstr "<span lang=\"ja\">英語</span>"
 
-#: idionative/settings.py:133 idionative/templates/base.html:69
+#: idionative/settings.py:134 idionative/templates/base.html:80
 msgid "Spanish"
 msgstr "<span lang=\"ja\">スペイン語</span>"
 
-#: idionative/settings.py:134 idionative/templates/base.html:70
+#: idionative/settings.py:135 idionative/templates/base.html:82
 msgid "German"
 msgstr "ドイツ語"
 
-#: idionative/settings.py:135 idionative/templates/base.html:71
+#: idionative/settings.py:136 idionative/templates/base.html:84
 msgid "Japanese"
 msgstr "日本語"
 
-#: idionative/settings.py:136 idionative/templates/base.html:72
+#: idionative/settings.py:137 idionative/templates/base.html:86
 msgid "Portuguese"
 msgstr "ポルトガル語"
 
-#: idionative/settings.py:137 idionative/templates/base.html:74
+#: idionative/settings.py:138 idionative/templates/base.html:90
 msgid "Korean"
 msgstr "韓国語"
 
-#: idionative/settings.py:138 idionative/templates/base.html:73
+#: idionative/settings.py:139 idionative/templates/base.html:88
 msgid "Galician"
 msgstr "ガリシア語"
 
-#: idionative/settings.py:139 idionative/templates/base.html:76
+#: idionative/settings.py:140 idionative/templates/base.html:94
 msgid "Vietnamese"
 msgstr ""
 
-#: idionative/settings.py:140 idionative/templates/base.html:75
+#: idionative/settings.py:141 idionative/templates/base.html:92
 msgid "Dutch"
 msgstr ""
 
-#: idionative/templates/base.html:46
+#: idionative/templates/base.html:49
 msgid "Home"
 msgstr "ホーム"
 
-#: idionative/templates/base.html:50
+#: idionative/templates/base.html:53
 msgid "Courses"
 msgstr "コース"
 
-#: idionative/templates/base.html:53 idionative/templates/index.html:43
+#: idionative/templates/base.html:56 idionative/templates/index.html:44
 msgid "Dictionary"
 msgstr "辞書"
 
-#: idionative/templates/base.html:56 idionative/templates/index.html:63
+#: idionative/templates/base.html:59 idionative/templates/index.html:74
 msgid "News"
 msgstr "ニュース"
 
-#: idionative/templates/base.html:60
+#: idionative/templates/base.html:68
 msgid "Log in/Sign up"
 msgstr "ログイン/サインアップ"
 
-#: idionative/templates/base.html:65
+#: idionative/templates/base.html:74
 msgid "Change language"
 msgstr "言語を変更"
 
@@ -82,41 +82,69 @@ msgstr "言語を変更"
 msgid "Start learning a language"
 msgstr "言語を学んで初めて"
 
-#: idionative/templates/index.html:112
-msgid "Social networks"
-msgstr "社会的ネットワーク"
+#: idionative/templates/index.html:54
+msgid "Search a word"
+msgstr ""
 
-#: idionative/templates/index.html:122 idionative/templates/index.html:130
+#: idionative/templates/index.html:105 idionative/templates/index.html:144
 msgid "About Idionative"
 msgstr "Idionativeついて"
 
-#: idionative/templates/index.html:135
+#: idionative/templates/index.html:110
+#, fuzzy
+#| msgid ""
+#| "Idionative is a project I made 3 years ago for a class task while I was "
+#| "studying IT."
 msgid ""
-"Idionative is a project I made 3 years ago for a class task while I was "
-"studying IT."
+"Idionative is a project I made 3 years ago for a class task while I was\n"
+"                            studying IT."
 msgstr ""
 "３年前には、ITを勉強しながら、Idionativeって言うプロジェクトを始まりました。"
 
-#: idionative/templates/index.html:136
+#: idionative/templates/index.html:112
+#, fuzzy
+#| msgid ""
+#| "I like helping other people so I had the idea of teaching my language to "
+#| "those who want to learn, or at least, to help to whoever is interested on "
+#| "it."
 msgid ""
-"I like helping other people so I had the idea of teaching my language to "
-"those who want to learn, or at least, to help to whoever is interested on it."
+"I like helping other people so I had the idea of teaching my language to\n"
+"                            those who want to learn, or at least, to help to "
+"whoever is interested on\n"
+"                            it."
 msgstr "人を助けてことが好きだから、私の言語を学びたい人に教えてと思った。"
 
-#: idionative/templates/index.html:137
+#: idionative/templates/index.html:115
+#, fuzzy
+#| msgid ""
+#| "The project started with only Spanish, English and Japanese as available "
+#| "languages. But it's been growing little by little as more people wanted "
+#| "to help."
 msgid ""
-"The project started with only Spanish, English and Japanese as available "
-"languages. But it's been growing little by little as more people wanted to "
-"help."
+"The project started with only Spanish, English and Japanese as available\n"
+"                            languages. But it's been growing little by "
+"little as more people wanted to\n"
+"                            help."
 msgstr "Idionativeはスペイン語と英語と日本語だけの言語がありました。"
 
-#: idionative/templates/index.html:138
+#: idionative/templates/index.html:118
+#, fuzzy
+#| msgid ""
+#| "This is a volunteer work so even though it's not perfect, the team "
+#| "working in Idionative is doing its best to make it great and cool for all "
+#| "people who want to use the information of this website."
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
-"in Idionative is doing its best to make it great and cool for all people who "
-"want to use the information of this website."
+"in\n"
+"                            Idionative is doing its best to make it great "
+"and cool for all people who want to use the\n"
+"                            information of this website."
 msgstr "ニャー"
 
-#: idionative/templates/index.html:142
+#: idionative/templates/index.html:124
 msgid "Close"
 msgstr "閉じる"
+
+#: idionative/templates/index.html:132
+msgid "Social networks"
+msgstr "社会的ネットワーク"

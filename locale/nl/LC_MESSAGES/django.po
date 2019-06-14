@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 09:55+0000\n"
+"POT-Creation-Date: 2019-06-14 08:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,63 +18,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: idionative/settings.py:132 idionative/templates/base.html:68
+#: idionative/settings.py:133 idionative/templates/base.html:78
 msgid "English"
 msgstr "Engels"
 
-#: idionative/settings.py:133 idionative/templates/base.html:69
+#: idionative/settings.py:134 idionative/templates/base.html:80
 msgid "Spanish"
 msgstr "Spaans"
 
-#: idionative/settings.py:134 idionative/templates/base.html:70
+#: idionative/settings.py:135 idionative/templates/base.html:82
 msgid "German"
 msgstr "Duits"
 
-#: idionative/settings.py:135 idionative/templates/base.html:71
+#: idionative/settings.py:136 idionative/templates/base.html:84
 msgid "Japanese"
 msgstr "Japans"
 
-#: idionative/settings.py:136 idionative/templates/base.html:72
+#: idionative/settings.py:137 idionative/templates/base.html:86
 msgid "Portuguese"
 msgstr "Portugees"
 
-#: idionative/settings.py:137 idionative/templates/base.html:74
+#: idionative/settings.py:138 idionative/templates/base.html:90
 msgid "Korean"
 msgstr "Koreaans"
 
-#: idionative/settings.py:138 idionative/templates/base.html:73
+#: idionative/settings.py:139 idionative/templates/base.html:88
 msgid "Galician"
 msgstr "Galicisch"
 
-#: idionative/settings.py:139 idionative/templates/base.html:76
+#: idionative/settings.py:140 idionative/templates/base.html:94
 msgid "Vietnamese"
 msgstr "Vietnamees"
 
-#: idionative/settings.py:140 idionative/templates/base.html:75
+#: idionative/settings.py:141 idionative/templates/base.html:92
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: idionative/templates/base.html:46
+#: idionative/templates/base.html:49
 msgid "Home"
 msgstr "Voorpagina"
 
-#: idionative/templates/base.html:50
+#: idionative/templates/base.html:53
 msgid "Courses"
 msgstr "Curcussen"
 
-#: idionative/templates/base.html:53 idionative/templates/index.html:43
+#: idionative/templates/base.html:56 idionative/templates/index.html:44
 msgid "Dictionary"
 msgstr "Woordenboek"
 
-#: idionative/templates/base.html:56 idionative/templates/index.html:63
+#: idionative/templates/base.html:59 idionative/templates/index.html:74
 msgid "News"
 msgstr "Nieuws"
 
-#: idionative/templates/base.html:60
+#: idionative/templates/base.html:68
 msgid "Log in/Sign up"
 msgstr "Log in/Schrijf in"
 
-#: idionative/templates/base.html:65
+#: idionative/templates/base.html:74
 msgid "Change language"
 msgstr "Verander de taal"
 
@@ -82,48 +82,78 @@ msgstr "Verander de taal"
 msgid "Start learning a language"
 msgstr "Begin een taal te leren"
 
-#: idionative/templates/index.html:112
-msgid "Social networks"
-msgstr "Sociale netwerken"
+#: idionative/templates/index.html:54
+msgid "Search a word"
+msgstr ""
 
-#: idionative/templates/index.html:122 idionative/templates/index.html:130
+#: idionative/templates/index.html:105 idionative/templates/index.html:144
 msgid "About Idionative"
 msgstr "Over Idionative"
 
-#: idionative/templates/index.html:135
+#: idionative/templates/index.html:110
+#, fuzzy
+#| msgid ""
+#| "Idionative is a project I made 3 years ago for a class task while I was "
+#| "studying IT."
 msgid ""
-"Idionative is a project I made 3 years ago for a class task while I was "
-"studying IT."
+"Idionative is a project I made 3 years ago for a class task while I was\n"
+"                            studying IT."
 msgstr ""
-"Idionative is een project dat ik 3 jaar geleden maakte voor een klastaak terwijl ik IT aan het studeren was."
+"Idionative is een project dat ik 3 jaar geleden maakte voor een klastaak "
+"terwijl ik IT aan het studeren was."
 
-#: idionative/templates/index.html:136
+#: idionative/templates/index.html:112
+#, fuzzy
+#| msgid ""
+#| "I like helping other people so I had the idea of teaching my language to "
+#| "those who want to learn, or at least, to help to whoever is interested on "
+#| "it."
 msgid ""
-"I like helping other people so I had the idea of teaching my language to "
-"those who want to learn, or at least, to help to whoever is interested on it."
+"I like helping other people so I had the idea of teaching my language to\n"
+"                            those who want to learn, or at least, to help to "
+"whoever is interested on\n"
+"                            it."
 msgstr ""
-"Ik vind het leuk om andere mensen te helpen, dus ik kreeg het idee mijn taal te leren aan degenen die willen leren,"
-"of op zijn minst om te helpen aan iedereen die er interesse in heeft."
+"Ik vind het leuk om andere mensen te helpen, dus ik kreeg het idee mijn taal "
+"te leren aan degenen die willen leren,of op zijn minst om te helpen aan "
+"iedereen die er interesse in heeft."
 
-#: idionative/templates/index.html:137
+#: idionative/templates/index.html:115
+#, fuzzy
+#| msgid ""
+#| "The project started with only Spanish, English and Japanese as available "
+#| "languages. But it's been growing little by little as more people wanted "
+#| "to help."
 msgid ""
-"The project started with only Spanish, English and Japanese as available "
-"languages. But it's been growing little by little as more people wanted to "
-"help."
+"The project started with only Spanish, English and Japanese as available\n"
+"                            languages. But it's been growing little by "
+"little as more people wanted to\n"
+"                            help."
 msgstr ""
 "Het project begon met alleen Spaans, Engels en Japans als beschikbare talen."
 "Maar het groeide beetje bij beetje naarmate meer mensen wilden helpen."
 
-#: idionative/templates/index.html:138
+#: idionative/templates/index.html:118
+#, fuzzy
+#| msgid ""
+#| "This is a volunteer work so even though it's not perfect, the team "
+#| "working in Idionative is doing its best to make it great and cool for all "
+#| "people who want to use the information of this website."
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
-"in Idionative is doing its best to make it great and cool for all people who "
-"want to use the information of this website."
+"in\n"
+"                            Idionative is doing its best to make it great "
+"and cool for all people who want to use the\n"
+"                            information of this website."
 msgstr ""
-"Dit is een vrijwilligerswerk dus hoewel het niet perfect is, doet het team dat in"
-"Idionative werkt zijn best om het geweldig en cool te maken voor alle mensen"
-"die de informatie van deze website willen gebruiken."
+"Dit is een vrijwilligerswerk dus hoewel het niet perfect is, doet het team "
+"dat inIdionative werkt zijn best om het geweldig en cool te maken voor alle "
+"mensendie de informatie van deze website willen gebruiken."
 
-#: idionative/templates/index.html:142
+#: idionative/templates/index.html:124
 msgid "Close"
 msgstr "Sluiten"
+
+#: idionative/templates/index.html:132
+msgid "Social networks"
+msgstr "Sociale netwerken"

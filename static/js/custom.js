@@ -2,8 +2,8 @@ $(document).ready(function () {
 
     // Mostrar texto "Learn a language"
     // Después mostrar "Expand new horizons"
-    // Check language
-    lang = window.location.pathname.slice(1, 3);
+    // Comprobar idioma del sitio para traducir título
+    lang = $("html").attr('lang');
     var subtitle;
     if (lang === 'en') {
         subtitle = new Typed("#subtitulo", {
@@ -55,7 +55,7 @@ $(document).ready(function () {
     // Hacer función que cambie el slide actual por el siguiente
     // Cuándo se llegue al último slide se repetirá el ciclo.
 
-    // Cuando el scroll pase la seccion parallax, que el texto cambie de color para que se pueda ver.
+    // Cuando el scroll pase 80px de altura, cambiar estilo del navbar para poder ver el contenido
     function cambiarNav() {
         if ($(window).width() > 1200) {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -81,5 +81,13 @@ $(document).ready(function () {
     window.onresize = cambiarNav;
     cambiarNav();
 
-    $(".toast").toast('show');
+    // Funcionamiento del diccionario
+    $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
+        data.forEach(function(entry) {
+            console.log(entry);
+            if (lang === entry.language) {
+                $("#dictionary-list").append(`<option value="${entry.name}">`)
+            }
+        });
+    });
 });
