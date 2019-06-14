@@ -62,7 +62,7 @@ $(document).ready(function () {
                 $("#topnav").removeClass('navbar-dark');
                 $("#topnav").addClass('navbar-light');
                 $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
-                $("#topnav").css('background', 'white');
+                $("#topnav").css('background', '#668586');
             } else {
                 $("#topnav").removeClass('navbar-light');
                 $("#topnav").addClass('navbar-dark');
@@ -73,7 +73,7 @@ $(document).ready(function () {
             $("#topnav").removeClass('navbar-dark');
             $("#topnav").addClass('navbar-light');
             $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
-            $("#topnav").css('background', 'white');
+            $("#topnav").css('background', '#668586');
         }
     }
 
