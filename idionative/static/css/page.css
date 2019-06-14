@@ -9,10 +9,14 @@
     margin-bottom: .5em;
 }
 
-.unit-info .card ul {
+.unit-info .card-body ul {
     padding-inline-start: 0;
 }
 
-.unit-info .card li {
+.unit-info .card-body li {
     list-style-type: none;
+}
+
+.unit-info .card-body .active {
+    color: #82AEB1;
 }

@@ -21,7 +21,7 @@
                                 <ul>
                                     {% for p in page_list %}
                                         <li>
-                                            <a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=p.page_order %}">{{ p.page_order }}. {{ p.title }}</a>
+                                            <a href="{% url 'page' coursepk=course.pk unitpk=unit.pk page=p.page_order %}" {% if p.page_order == page.page_order %} class="active"{% endif %}>{{ p.page_order }}. {{ p.title }}</a>
                                         </li>
                                     {% endfor %}
                                 </ul>
