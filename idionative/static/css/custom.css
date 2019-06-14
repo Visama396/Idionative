@@ -130,6 +130,10 @@ html {
     margin-bottom: 2em;
 }
 
+.word-info {
+    display: none;
+}
+
 /* NEWS */
 
 #news {

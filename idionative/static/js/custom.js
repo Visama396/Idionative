@@ -90,4 +90,9 @@ $(document).ready(function () {
             }
         });
     });
+
+    $("#searchButton").click(function() {
+        $(".word-info").show();
+        $("#word-name").text($("#searchWord").val());
+    });
 });
