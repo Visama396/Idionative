@@ -38,10 +38,8 @@ def home(request):
         courses_list = None
 
     languages_list = Language.objects.all().order_by('pk')
-    try:
-        news_list = News.objects.filter(language_news__code_2=request.get_full_path()[1:3]).order_by('-pk')
-    except News.DoesNotExist:
-        news_list = None
+
+    news_list = News.objects.all().order_by('pub_date')
 
     return render(request, 'index.html', {'courses': courses_list, 'languages': languages_list, 'news': news_list, 'template': "home"})
 
