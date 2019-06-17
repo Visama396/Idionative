@@ -81,15 +81,23 @@ $(document).ready(function () {
     window.onresize = cambiarNav;
     cambiarNav();
 
+    words = [];
+    meanings = [];
     // Funcionamiento del diccionario
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
         data.forEach(function(entry) {
-            console.log(entry);
-            if (lang === entry.language) {
-                $("#words").append(`<option value="${entry.name}">`)
+            if (lang === entry.language) { // Si la palabra pertenece al idioma en el que está la página, incluir el término en el buscador.
+                words.push(entry);
+                $("#words").append(`<option value="${entry.name}">`);
             }
         });
     });
+
+    $.get("http://idionative.sytes.net/en/api/definitions/?format=json", function(data, status)) {
+        data.forEach(function(definition) {
+            console.log(definition);
+        });
+    };
 
     $("#searchButton").click(function() {
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
@@ -97,8 +105,13 @@ $(document).ready(function () {
         if ($("#searchWord-flexdatalist").val() == "") {
             $("#searchWord-flexdatalist").css("border", "1px solid red");
         } else {
-            $(".word-info").css('display', 'flex');
-            $("#word-name").text($("#searchWord-flexdatalist").val());
+            words.forEach(function(entry) {
+                console.log(entry);
+                if (entry.name == $("#searchWord-flexdatalist").val()) {
+                    $(".word-info").css('display', 'flex');
+                    $("#word-name").text(entry.name);
+                }
+            });
         }
     });
 });
