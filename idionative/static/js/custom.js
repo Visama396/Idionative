@@ -93,11 +93,11 @@ $(document).ready(function () {
         });
     });
 
-    $.get("http://idionative.sytes.net/en/api/definitions/?format=json", function(data, status)) {
+    $.get("http://idionative.sytes.net/en/api/definitions/?format=json", function(data, status) {
         data.forEach(function(definition) {
             console.log(definition);
         });
-    };
+    });
 
     $("#searchButton").click(function() {
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
