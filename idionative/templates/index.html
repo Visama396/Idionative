@@ -19,7 +19,7 @@
                 </header>
 
                 <section class="row courses-cont pt-3">
-                    <div class="col-12 d-flex justify-content-center flex-nowrap px-3">
+                    <div class="col-12 d-flex justify-content-center flex-wrap flex-xl-nowrap px-3">
                         {% for course in courses %}
                             {% if course.lang.code_2 == LANGUAGE_CODE %}
                                 <a class="card" href="{% url 'course' coursepk=course.pk %}"
