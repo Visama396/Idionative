@@ -93,7 +93,8 @@ $(document).ready(function () {
 
     $("#searchButton").click(function() {
         $("#searchWord").css("border", "initial");
-        if ($("#searchWord").val() === "") {
+        $("#word-name").text("");
+        if ($("#searchWord").val() == "") {
             $("#searchWord").css("border", "red");
         } else {
             $(".word-info").css('display', 'flex');
