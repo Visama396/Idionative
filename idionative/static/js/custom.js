@@ -118,6 +118,7 @@ $(document).ready(function () {
         });
     });
 
+    var meaning_order = 0;
     $("#searchButton").click(function() {
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $(".word-info").hide();
@@ -131,11 +132,9 @@ $(document).ready(function () {
                     $(".word-info").css('display', 'flex');
                     $("#word-name").text(entry.name);
                     meanings.forEach(function(meaning) {
-                        let i = 0;
                         if (meaning.word === entry.pk) {
-                            i++;
-                            console.log("Definición encontrada");
-                            $(".word-definitions").append(`<dt class="col-sm-3">${i}. ${wordTypeToString(meaning.word_type)}</dt>`);
+                            meaning_order++;
+                            $(".word-definitions").append(`<dt class="col-sm-3">${meaning_order}. ${wordTypeToString(meaning.word_type)}</dt>`);
                             $(".word-definitions").append(`<dd class="col-sm-9">${meaning.meaning}</dd>`);
                         }
                     });
