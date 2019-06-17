@@ -92,13 +92,13 @@ $(document).ready(function () {
     });
 
     $("#searchButton").click(function() {
-        $("#searchWord").css("border", "initial");
+        $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $("#word-name").text("");
-        if ($("#searchWord").val() == "") {
-            $("#searchWord").css("border", "red");
+        if ($("#searchWord-flexdatalist").val() == "") {
+            $("#searchWord-flexdatalist").css("border", "1px solid red");
         } else {
             $(".word-info").css('display', 'flex');
-            $("#word-name").text($("#searchWord").val());
+            $("#word-name").text($("#searchWord-flexdatalist").val());
         }
     });
 });
