@@ -91,10 +91,8 @@ msgid "Search a word"
 msgstr "言葉を検索"
 
 #: idionative/templates/index.html:59
-#, fuzzy
-#| msgid "Search a word"
 msgid "Search"
-msgstr "言葉を検索"
+msgstr "検索"
 
 #: idionative/templates/index.html:76
 msgid "Definitions"

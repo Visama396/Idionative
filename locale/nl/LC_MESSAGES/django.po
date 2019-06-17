@@ -91,10 +91,8 @@ msgid "Search a word"
 msgstr "Zoek een woord"
 
 #: idionative/templates/index.html:59
-#, fuzzy
-#| msgid "Search a word"
 msgid "Search"
-msgstr "Zoek een woord"
+msgstr "Zoeken"
 
 #: idionative/templates/index.html:76
 msgid "Definitions"
