@@ -66,7 +66,16 @@
                 </section>
                 <section class="row word-info justify-content-center">
                     <div class="col-12 col-xl-8">
-                        <h3 id="word-name" lang="{{ LANGUAGE_CODE }}"></h3>
+                        <div class="row word-header">
+                            <div class="col-12">
+                                <h3 id="word-name" lang="{{ LANGUAGE_CODE }}"></h3>
+                            </div>
+                        </div>
+                        <dl class="row word-definitions">
+                            <div class="col-12">
+                                <h4>{% trans "Definitions" %}</h4>
+                            </div>
+                        </dl>
                     </div>
                 </section>
             </div>

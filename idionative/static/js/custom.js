@@ -84,6 +84,24 @@ $(document).ready(function () {
     words = [];
     meanings = [];
     // Funcionamiento del diccionario
+
+    function wordTypeToString(word_type) {
+        switch (word_type) {
+            case "N":
+                return "noun";
+            case "Adj":
+                return "adjective";
+            case "Adv":
+                return "adverb";
+            case "Verb":
+                return "verb";
+            case "Pron":
+                return "pronoun";
+            case "Prep":
+                return "preposition";
+        }
+    }
+
     $.get("http://idionative.sytes.net/en/api/words/?format=json", function(data, status) {
         data.forEach(function(entry) {
             if (lang === entry.language) { // Si la palabra pertenece al idioma en el que está la página, incluir el término en el buscador.
@@ -102,14 +120,20 @@ $(document).ready(function () {
     $("#searchButton").click(function() {
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $("#word-name").text("");
-        if ($("#searchWord-flexdatalist").val() == "") {
+        if ($("#searchWord-flexdatalist").val() === "") {
             $("#searchWord-flexdatalist").css("border", "1px solid red");
         } else {
             words.forEach(function(entry) {
                 console.log(entry);
-                if (entry.name == $("#searchWord-flexdatalist").val()) {
+                if (entry.name === $("#searchWord-flexdatalist").val()) {
                     $(".word-info").css('display', 'flex');
                     $("#word-name").text(entry.name);
+                    meanings.forEach(function(meaning) {
+                        if (meaning.word === entry.pk) {
+                            $(".word-definitions").append(`<dt class="col-sm-3">${meaning.word}.${wordTypeToString(meaning.word_type)}</dt>`);
+                            $(".word-definitions").append(`<dd class="col-sm-9">${meaning.meaning}</dd>`);
+                        }
+                    });
                 }
             });
         }
