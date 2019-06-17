@@ -127,16 +127,15 @@ $(document).ready(function () {
             $("#searchWord-flexdatalist").css("border", "1px solid red");
         } else {
             words.forEach(function(entry) {
-                console.log(entry);
                 if (entry.name === $("#searchWord-flexdatalist").val()) {
-                    console.log("Palabra del input encontrada en diccionario");
                     $(".word-info").css('display', 'flex');
                     $("#word-name").text(entry.name);
                     meanings.forEach(function(meaning) {
-                        console.log("Buscando definición");
+                        let i = 0;
                         if (meaning.word === entry.pk) {
+                            i++;
                             console.log("Definición encontrada");
-                            $(".word-definitions").append(`<dt class="col-sm-3">${meaning.word}.${wordTypeToString(meaning.word_type)}</dt>`);
+                            $(".word-definitions").append(`<dt class="col-sm-3">${i}. ${wordTypeToString(meaning.word_type)}</dt>`);
                             $(".word-definitions").append(`<dd class="col-sm-9">${meaning.meaning}</dd>`);
                         }
                     });
