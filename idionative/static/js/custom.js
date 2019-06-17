@@ -167,6 +167,7 @@ $(document).ready(function () {
 
     var meaning_order = 0;
     $("#searchButton").click(function() {
+        meaning_order = 0;
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $(".word-info").hide();
         $(".word-definitions > dt").remove();
