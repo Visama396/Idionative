@@ -17,4 +17,4 @@ class CourseSerializer(serializers.ModelSerializer):
 class MeaningSerializer(serializers.ModelSerializer):
     class Meta:
         model = Meaning
-        field = ('word', 'meaning', 'word_type')
+        fields = ('word', 'meaning', 'word_type')
