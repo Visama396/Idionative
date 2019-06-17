@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import Course, Word, Language, Unit, Page, News
-from .serializers import WordSerializer, CourseSerializer
+from .models import Course, Word, Language, Unit, Page, News, Meaning
+from .serializers import WordSerializer, CourseSerializer, MeaningSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -30,6 +30,13 @@ class CourseList(APIView):
         serializer = CourseSerializer(courses, many=True)
         return Response(serializer.data)
 
+
+class MeaningList(APIView):
+    def get(self, request, format=None):
+        definitions = Meaning.objects.all()
+        serializer = MeaningSerializer(definitions, many=True)
+        return Response(serializer.data)
+    
 
 def home(request):
     try:

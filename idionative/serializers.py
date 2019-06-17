@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Word, Course
+from .models import Word, Course, Meaning
 
 
 class WordSerializer(serializers.ModelSerializer):
@@ -14,3 +14,7 @@ class CourseSerializer(serializers.ModelSerializer):
         fields = ('pk', 'title', 'starting_date', 'description', 'lang', 'image')
 
 
+class MeaningSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Meaning
+        field = ('word', 'meaning', 'word_type')
