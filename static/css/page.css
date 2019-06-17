@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+#topnav {
+    background-color: #668586 !important;
+}
+
 .page-header {
     margin-top: 8em;
     margin-bottom: 2em;
@@ -9,10 +13,15 @@
     margin-bottom: .5em;
 }
 
-.unit-info .card ul {
+.unit-info .card-body ul {
     padding-inline-start: 0;
 }
 
-.unit-info .card li {
+.unit-info .card-body li {
     list-style-type: none;
+}
+
+.unit-info .card-body .active {
+    font-weight: bolder;
+    color: #2B2D42;
 }

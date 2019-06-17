@@ -130,6 +130,23 @@ html {
     margin-bottom: 2em;
 }
 
+.word-info {
+    display: none;
+}
+
+#searchWord-flexdatalist {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.word-header {
+    margin: 1em 0;
+}
+
+.word-definitions {
+    margin-top: 1em;
+}
+
 /* NEWS */
 
 #news {
@@ -153,6 +170,10 @@ html {
     background-color: #001427;
 }
 
+#footer .btn.btn-link {
+    color: white !important;
+    text-decoration: underline !important;
+}
 
 @media screen and (min-width: 768px) {
     #titulo {
