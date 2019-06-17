@@ -139,6 +139,14 @@ html {
     border-bottom-left-radius: 5px;
 }
 
+.word-header {
+    margin: 1em 0;
+}
+
+.word-definitions {
+    margin-top: 1em;
+}
+
 /* NEWS */
 
 #news {

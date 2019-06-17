@@ -121,6 +121,8 @@ $(document).ready(function () {
     $("#searchButton").click(function() {
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $(".word-info").hide();
+        $(".word-definitions > dt").remove();
+        $(".word-definitions > dd").remove();
         if ($("#searchWord-flexdatalist").val() === "") {
             $("#searchWord-flexdatalist").css("border", "1px solid red");
         } else {
