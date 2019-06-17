@@ -48,11 +48,11 @@ msgstr "Galego"
 
 #: idionative/settings.py:140 idionative/templates/base.html:94
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamita"
 
 #: idionative/settings.py:141 idionative/templates/base.html:92
 msgid "Dutch"
-msgstr ""
+msgstr "Holandés"
 
 #: idionative/templates/base.html:49
 msgid "Home"
@@ -80,7 +80,7 @@ msgstr "Cambiar lingua"
 
 #: idionative/templates/course.html:21
 msgid "Units of this course"
-msgstr ""
+msgstr "Unidades deste curso"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"

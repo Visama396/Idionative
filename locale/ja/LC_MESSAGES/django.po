@@ -20,11 +20,11 @@ msgstr ""
 
 #: idionative/settings.py:133 idionative/templates/base.html:78
 msgid "English"
-msgstr "<span lang=\"ja\">英語</span>"
+msgstr "英語"
 
 #: idionative/settings.py:134 idionative/templates/base.html:80
 msgid "Spanish"
-msgstr "<span lang=\"ja\">スペイン語</span>"
+msgstr "スペイン語"
 
 #: idionative/settings.py:135 idionative/templates/base.html:82
 msgid "German"
@@ -48,11 +48,11 @@ msgstr "ガリシア語"
 
 #: idionative/settings.py:140 idionative/templates/base.html:94
 msgid "Vietnamese"
-msgstr ""
+msgstr "ベトナム語"
 
 #: idionative/settings.py:141 idionative/templates/base.html:92
 msgid "Dutch"
-msgstr ""
+msgstr "オランダ語"
 
 #: idionative/templates/base.html:49
 msgid "Home"
@@ -80,7 +80,7 @@ msgstr "言語を変更"
 
 #: idionative/templates/course.html:21
 msgid "Units of this course"
-msgstr ""
+msgstr "目次"
 
 #: idionative/templates/index.html:17
 msgid "Start learning a language"
@@ -98,7 +98,7 @@ msgstr "言葉を検索"
 
 #: idionative/templates/index.html:76
 msgid "Definitions"
-msgstr ""
+msgstr "定義"
 
 #: idionative/templates/index.html:119 idionative/templates/index.html:159
 msgid "About Idionative"
