@@ -92,7 +92,12 @@ $(document).ready(function () {
     });
 
     $("#searchButton").click(function() {
-        $(".word-info").css('display', 'flex');
-        $("#word-name").text($("#searchWord").val());
+        $("#searchWord").css("border", "initial");
+        if ($("#searchWord").val() === "") {
+            $("#searchWord").css("border", "red");
+        } else {
+            $(".word-info").css('display', 'flex');
+            $("#word-name").text($("#searchWord").val());
+        }
     });
 });
