@@ -1,10 +1,7 @@
 from django.conf.urls import include, url
-from django.urls import path
 from django.contrib import admin
 from django.conf.urls.i18n import i18n_patterns
-from rest_framework import routers
 from .views import home, home_files, course, page
-from rest_framework.urlpatterns import format_suffix_patterns
 from .views import WordList, CourseList, MeaningList
 
 urlpatterns = [

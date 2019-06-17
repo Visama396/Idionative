@@ -2,6 +2,7 @@ from django.db import models
 
 from tinymce.models import HTMLField
 
+
 class Language(models.Model):
     name = models.CharField(max_length=200)
     code_2 = models.CharField(max_length=2, primary_key=True)
