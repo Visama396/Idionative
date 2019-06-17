@@ -134,6 +134,11 @@ html {
     display: none;
 }
 
+#searchWord-flexdatalist {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 /* NEWS */
 
 #news {
