@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Mostrar texto "Learn a language"
     // Después mostrar "Expand new horizons"
     // Comprobar idioma del sitio para traducir título
-    lang = $("html").attr('lang');
+    var lang = $("html").attr('lang');
     var subtitle;
     switch (lang) {
         case 'en':
@@ -81,24 +81,71 @@ $(document).ready(function () {
     window.onresize = cambiarNav;
     cambiarNav();
 
+    // Funcionamiento del diccionario
     words = [];
     meanings = [];
-    // Funcionamiento del diccionario
 
     function wordTypeToString(word_type) {
         switch (word_type) {
             case "N":
-                return "noun";
+                switch (lang) {
+                    case "en":
+                        return "noun";
+                    case "es":
+                        return "sustantivo";
+                    case "ja":
+                        return "名";
+                }
+                break;
             case "Adj":
-                return "adjective";
+                switch (lang) {
+                    case "en":
+                        return "adjective";
+                    case "es":
+                        return "adjetivo";
+                    case "ja":
+                        return "形";
+                }
+                break;
             case "Adv":
-                return "adverb";
+                switch (lang) {
+                    case "en":
+                        return "adverb";
+                    case "es":
+                        return "adverbio";
+                    case "ja":
+                        return "副";
+                }
+                break;
             case "Verb":
-                return "verb";
+                switch (lang) {
+                    case "en":
+                        return "verb";
+                    case "es":
+                        return "verbo";
+                    case "ja":
+                        return "動";
+                }
+                break;
             case "Pron":
-                return "pronoun";
+                switch (lang) {
+                    case "en":
+                        return "pronoun";
+                    case "es":
+                        return "pronombre";
+                    case "ja":
+                        return "代名"
+                }
+                break;
             case "Prep":
-                return "preposition";
+                switch (lang) {
+                    case "en":
+                        return "preposition";
+                    case "es":
+                        return "preposición";
+                    case "ja":
+                        return "前置";
+                }
         }
     }
 
@@ -120,6 +167,7 @@ $(document).ready(function () {
 
     var meaning_order = 0;
     $("#searchButton").click(function() {
+        meaning_order = 0;
         $("#searchWord-flexdatalist").css("border", "1px solid grey");
         $(".word-info").hide();
         $(".word-definitions > dt").remove();
