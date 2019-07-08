@@ -33,6 +33,9 @@ def home(request):
     except Course.DoesNotExist:
         courses_list = None
 
+    if not courses_list:
+        courses_list = None
+
     languages_list = Language.objects.all().order_by('pk')
 
     news_list = News.objects.all().order_by('pub_date')
