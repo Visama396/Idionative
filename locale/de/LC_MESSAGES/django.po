@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-17 07:15+0000\n"
+"POT-Creation-Date: 2019-07-08 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,11 +62,11 @@ msgstr "Start"
 msgid "Courses"
 msgstr "Kurse"
 
-#: idionative/templates/base.html:56 idionative/templates/index.html:44
+#: idionative/templates/base.html:56 idionative/templates/index.html:48
 msgid "Dictionary"
 msgstr "Wörterbuch"
 
-#: idionative/templates/base.html:59 idionative/templates/index.html:88
+#: idionative/templates/base.html:59 idionative/templates/index.html:92
 msgid "News"
 msgstr "Nachrichten"
 
@@ -86,52 +86,56 @@ msgstr ""
 msgid "Start learning a language"
 msgstr "Eine Sprache zu lernen"
 
-#: idionative/templates/index.html:54
+#: idionative/templates/index.html:37
+msgid "No courses available"
+msgstr ""
+
+#: idionative/templates/index.html:58
 msgid "Search a word"
 msgstr ""
 
-#: idionative/templates/index.html:59
+#: idionative/templates/index.html:63
 msgid "Search"
 msgstr ""
 
-#: idionative/templates/index.html:76
+#: idionative/templates/index.html:80
 msgid "Definitions"
 msgstr ""
 
-#: idionative/templates/index.html:119 idionative/templates/index.html:159
+#: idionative/templates/index.html:123 idionative/templates/index.html:163
 msgid "About Idionative"
 msgstr "Über Idionative"
 
-#: idionative/templates/index.html:125
+#: idionative/templates/index.html:129
 msgid ""
 "Idionative is a project I made 3 years ago for a class task while I was "
 "studying IT."
 msgstr ""
 
-#: idionative/templates/index.html:128
+#: idionative/templates/index.html:132
 msgid ""
 "I like helping other people so I had the idea of teaching my language to "
 "those who want to learn, or at least, to help to whoever is interested on it."
 msgstr ""
 
-#: idionative/templates/index.html:131
+#: idionative/templates/index.html:135
 msgid ""
 "The project started with only Spanish, English and Japanese as available "
 "languages. But it's been growing little by little as more people wanted to "
 "help."
 msgstr ""
 
-#: idionative/templates/index.html:134
+#: idionative/templates/index.html:138
 msgid ""
 "This is a volunteer work so even though it's not perfect, the team working "
 "in Idionative is doing its best to make it great and cool for all people who "
 "want to use the information of this website."
 msgstr ""
 
-#: idionative/templates/index.html:139
+#: idionative/templates/index.html:143
 msgid "Close"
 msgstr "Schließen"
 
-#: idionative/templates/index.html:147
+#: idionative/templates/index.html:151
 msgid "Social networks"
 msgstr "Soziale Netzwerke"
