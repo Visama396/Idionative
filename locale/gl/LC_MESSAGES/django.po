@@ -88,7 +88,7 @@ msgstr "Comenza a aprender unha lingua"
 
 #: idionative/templates/index.html:37
 msgid "No courses available"
-msgstr ""
+msgstr "Non hai cursos dispoñibles"
 
 #: idionative/templates/index.html:58
 msgid "Search a word"

@@ -88,7 +88,7 @@ msgstr "言語を学んで初めて"
 
 #: idionative/templates/index.html:37
 msgid "No courses available"
-msgstr ""
+msgstr "コースがありません。"
 
 #: idionative/templates/index.html:58
 msgid "Search a word"
