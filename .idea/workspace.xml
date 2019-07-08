@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idionative/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +32,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="105" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+            <state relative-caret-position="510">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idionative/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/idionative/models.py" />
         <option value="$PROJECT_DIR$/idionative/static/js/custom.js" />
         <option value="$PROJECT_DIR$/idionative/templates/base.html" />
-        <option value="$PROJECT_DIR$/idionative/templates/index.html" />
         <option value="$PROJECT_DIR$/idionative/views.py" />
+        <option value="$PROJECT_DIR$/idionative/templates/index.html" />
       </list>
     </option>
   </component>
@@ -271,12 +271,12 @@
       <workItem from="1560772082339" duration="601000" />
       <workItem from="1560786973804" duration="1249000" />
       <workItem from="1560837447074" duration="3422000" />
-      <workItem from="1562579289019" duration="1911000" />
+      <workItem from="1562579289019" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191904000" />
+    <option name="totallyTimeSpent" value="192062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -490,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="105" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idionative/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -511,6 +504,13 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idionative/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
         </state>
       </provider>
     </entry>
