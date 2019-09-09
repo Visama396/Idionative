@@ -25,3 +25,7 @@
     font-weight: bolder;
     color: #2B2D42;
 }
+
+.table .kana {
+    cursor: pointer;
+}

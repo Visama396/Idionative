@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="decd65ea-2263-4ee8-aa6c-d5ea8807c3e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idionative/static/js/stroke.js" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/js/stroke.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idionative/static/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/idionative/static/css/page.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +164,8 @@
       <workItem from="1568034751640" duration="520000" />
       <workItem from="1568035355824" duration="488000" />
       <workItem from="1568036730020" duration="125000" />
-      <workItem from="1568036884362" duration="3364000" />
+      <workItem from="1568036884362" duration="3517000" />
+      <workItem from="1568042139275" duration="225000" />
     </task>
     <servers />
   </component>
@@ -176,7 +177,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
