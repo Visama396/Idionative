@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // Mostrar texto "Learn a language"
     // Después mostrar "Expand new horizons"
     // Comprobar idioma del sitio para traducir título
