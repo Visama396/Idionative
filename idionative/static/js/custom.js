@@ -159,7 +159,6 @@ $(document).ready(function () {
 
     $.get("http://idionative.sytes.net/en/api/definitions/?format=json", function(data, status) {
         data.forEach(function(definition) {
-            console.log(definition);
             meanings.push(definition);
         });
     });

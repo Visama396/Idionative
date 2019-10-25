@@ -29,3 +29,19 @@
 .table .kana {
     cursor: pointer;
 }
+
+.noun {
+    color: red;
+}
+
+.verb-object {
+    color: yellow;
+}
+
+.adjective {
+    color: lawngreen;
+}
+
+.verb {
+    color: blue;
+}
