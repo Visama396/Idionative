@@ -65,14 +65,14 @@ $(document).ready(function () {
         if ($(window).width() > 1200) {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                 $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
-                $("#topnav").css('background', '#668586');
+                $("#topnav").css('background', '#241A32');
             } else {
                 $("#topnav").css('box-shadow', 'none');
                 $("#topnav").css('background', 'transparent');
             }
         } else {
             $("#topnav").css('box-shadow', '0px 2px 10px 0px rgba(0,0,0,0.30)');
-            $("#topnav").css('background', '#668586');
+            $("#topnav").css('background', '#241A32');
         }
     }
 
@@ -159,7 +159,6 @@ $(document).ready(function () {
 
     $.get("http://idionative.sytes.net/en/api/definitions/?format=json", function(data, status) {
         data.forEach(function(definition) {
-            console.log(definition);
             meanings.push(definition);
         });
     });
